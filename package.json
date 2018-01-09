@@ -18,6 +18,7 @@
   "homepage": "https://github.com/antstanley/serverlessdays-web#readme",
   "devDependencies": {
     "browser-sync": "^2.23.3",
+    "cypress": "^1.4.1",
     "gulp": "^3.9.1",
     "gulp-htmlmin": "^4.0.0",
     "gulp-uglify": "^3.0.0",
