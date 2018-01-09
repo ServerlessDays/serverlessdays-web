@@ -2,7 +2,8 @@ var gulp = require('gulp');
 var htmlmin = require('gulp-htmlmin');
 var uglify = require('gulp-uglify');
 var pump = require('pump');
- 
+var browserSync = require('browser-sync').create();
+
 gulp.task('compress', function (cb) {
   pump([
         gulp.src('src/*.js'),
@@ -26,3 +27,13 @@ gulp.task('copy', function(){
 });
 
 gulp.task('build',['minify','compress','copy']);
+
+
+// Static server
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./src/html/"
+        }
+    });
+});
