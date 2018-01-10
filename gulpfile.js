@@ -13,10 +13,9 @@ gulp.task('compress', function (cb) {
     cb
   );
 });
-
  
 gulp.task('minify', function() {
-  return gulp.src('src/*.html')
+  return gulp.src('src/**/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'));
 });
