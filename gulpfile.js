@@ -36,4 +36,6 @@ gulp.task('browser-sync', function() {
             baseDir: "./src/html/"
         }
     });
+
+    gulp.watch("src/html/*.html").on('change', browserSync.reload)
 });

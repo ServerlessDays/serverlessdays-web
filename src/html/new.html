@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>ServerlessDays</title>
+  
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  
+  </head>
+
+  <style>
+    .cliphero-1 {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+    }
+
+    .cliphero-2 {
+      -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+      clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+    }
+
+    .cliphero-3 {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+      clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .bg-graph {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23111111' fill-opacity='0.2'%3E%3Cpath opacity='.3' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+  .shadow-grad {
+    background: linear-gradient(#ffffff,#efefef);
+  }
+  </style>
+
+  <body class="bg-graph">
+
+    <div class="w-100 bg-dark-gray">
+        <nav class="tc pv2 pv3-ns f5-ns f6 code">
+          <a class="pa2 near-white no-underline dib" href="/">Home</a>
+          <a class="pa2 near-white no-underline dib" href="/previous/">Previous</a>
+          <a class="pa2 near-white no-underline dib" href="/speaking/">Speaking</a>
+          <a class="pa2 near-white no-underline dib" href="/organise/">Organise</a>
+          <a class="pa2 near-white no-underline dib" href="/diversity/">Diversity</a>
+          <a class="pa2 near-white no-underline dib" href="/blog/">Blog</a>
+          <a class="pa2 pr3-ns near-white no-underline dib" href="/About/">About</a>
+        </nav>
+    </div>
+
+    <div class="dt vh-75 vh-50-ns w-100 bg-blue cliphero-1">
+
+        <div class="dtc-ns w-100 w-66-ns">
+          <p class="v-top tc bold near-white f2 code dn-ns mv3">ServerlessDays</p>
+          <div class="dt-ns pa2-ns pa4-ns ml6-ns">
+            <div class="dtc-ns w-100 w-auto-ns tc ph4-ns v-top">
+                <img src="https://res.cloudinary.com/senzo/image/upload/c_scale,h_240/v1486988424/SERVERLESS_NO_BACKGROUND_opzcgz.png"/>
+            </div>
+            <div class="dtc-ns w-100 w-auto-ns tc tl-ns ph2 pa2-ns ml3-ns v-top code white measure-narrow-ns">
+              <h2 class="code f4 white bold underline">JeffConf Hamburg</h2>
+              <p>Friday, 16 February 2018</p>
+              <p>Altonaer Museum, Museumstraße 23, 22765 Hamburg</p>
+              <div class="pb5 pb0-ns pt2 pt5-ns">
+                <button class="code bg-white ph4 pv2 blue ba br2 b--white">Ticket</button>
+                <button class="code bg-transparent ph4 pv2 near-white ba br2 b--white">Speak</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dtc-ns w-100 w-34-ns v-top dn db-ns">
+          <h1 class="pa3 ma2 mr6-ns tc tr-ns bold near-white f2 f1-ns code">ServerlessDays</h1>
+        </div>
+
+    </div>
+
+    <div class="w-100 mt3 mt5-ns ph2-m ph4-l dib center">
+
+        <div class="fl-ns w-100 w-33-m w-25-l pa3">
+          <div class="center">
+            <div class="h5 bg-light-gray">
+            </div>
+            <div class="h3 bg-near-white">
+            </div>
+          </div>
+        </div>
+        <div class="fl-ns w-100 w-33-m w-25-l pa3">
+          <div class="center">
+            <div class="h5 bg-light-gray">
+            </div>
+            <div class="h3 bg-near-white">
+            </div>
+          </div>
+        </div>
+        <div class="fl-ns w-100 w-33-m w-25-l pa3">
+          <div class="center">
+            <div class="h5 bg-light-gray">
+            </div>
+            <div class="h3 bg-near-white">
+            </div>
+          </div>
+        </div>
+        <div class="fl-ns w-100 w-33-m w-25-l pa3">
+          <div class="center">
+            <div class="h5 bg-light-gray">
+            </div>
+            <div class="h3 bg-near-white">
+            </div>
+          </div>
+        </div>
+        <div class="fl-ns w-100 w-33-m w-25-l pa3">
+          <div class="center">
+            <div class="h5 bg-light-gray">
+            </div>
+            <div class="h3 bg-near-white">
+            </div>
+          </div>
+        </div>
+        <div class="fl-ns w-100 w-33-m w-25-l pa3">
+          <div class="center">
+            <div class="h5 bg-light-gray">
+            </div>
+            <div class="h3 bg-near-white">
+            </div>
+          </div>
+        </div>
+        <div class="fl-ns w-100 w-33-m w-25-l pa3">
+          <div class="center ba b--near-white">
+            <div class="h5 bg-light-gray">
+            </div>
+            <div class="h3 bg-near-white">
+            </div>
+          </div>
+        </div>
+        <div class="fl-ns w-100 w-33-m w-25-l pa3">
+          <div class="center">
+            <div class="h5 bg-light-gray">
+            </div>
+            <div class="h3 bg-near-white">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="mt2 mt3-ns w-100 vh-50 cliphero-2 bg-green">
+
+
+    </div>
+
+    <div class="mt2 mt3-ns w-100 vh-75">
+
+
+    </div>
+
+    <div class="mt2 mt3-ns w-100 vh-50 cliphero-3 bg-navy">
+
+
+    </div>
+
+  </body>
+  
+</html>
