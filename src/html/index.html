@@ -22,6 +22,8 @@
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
 }
 
+.shadow-6 { box-shadow: 0px 0px 48px 6px rgba( 0, 0, 0, 0.1 );}
+
 .bg-graph {
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23111111' fill-opacity='0.2'%3E%3Cpath opacity='.3' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -34,6 +36,7 @@
 .w6 {
     width: 20rem;
 }
+
 
 </style>
 
@@ -149,33 +152,58 @@
     </div>
     
 
-    <div class="mt2 mt3-ns w-100">
-        <div class="dt-ns w-100 w-80-ns vh-25 center code mt6 mt0-ns">
-            <div class="dtc-ns w-100 w-33-ns">
-                <h3 class="f4 f3-ns dark-gray underline tc">News</h3>
-                <div class="measure-m measure-wide-l f6 f5-ns center mt4">
+    <div class="mt2 mt3-ns w-100 relative">
+        <div class="w-100 w-80-ns center code mt6 mt0-ns">
+        <h2 class="f4 f3-ns dark-gray underline tc">News</h2>
+                
+            <div class="w-100 w-80-m w-70-l pa1 ph2-ns bg-white ba br0 b--light-gray center shadow-6">
+                
+                <article class="ml2 ph2 pv1 tl avenir black v-top grow pointer">
+                    <div class="dt w-100">
+                        <div class="dtc w4-ns">
+                            <span class="b f6">25 Jan 2018</span>
+                        </div>
+                        <div class="dtc">
+                            <h3 class="pt1 mv1 f5 b">From buzzword to meaningful infrastructure option? What’s behind “Serverless”</h3>
+                            <div class="lh-copy f6 dark-gray">
+                                <p class="mt0"> 
+                                    [Interview with Alex Casalboni, translated from the original German article published at https://t3n.de/news/jeffconf-2018-hamburg-905965/]
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
 
-                </div>
-            </div>
-            <div class="dtc-ns w-100 w-33-ns">
-                <h3 class="f4 f3-ns dark-gray underline tc">Latest Videos</h3>
-                <div class="measure-m measure-wide-l f6 f5-ns center mt4">
+                <article class="ml2 ph2 pv1 tl avenir black v-top grow pointer">
+                    <div class="dt w-100">
+                        <div class="dtc w4-ns">
+                            <span class="b f6">3 Oct 2017</span>
+                        </div>
+                   
+                        <div class="dtc">
+                            <h3 class="pt1 mv1 f5 b">JeffConf Milan 2017 — Good things comes in threes (at least!)</h3>
+                            <div class="lh-copy f6 dark-gray">
+                                <p class="pt0 mt0"> 
+                                    21 speakers, 6 hours of technical sessions, and 125 attendees. That is not bad for a no-profit conference organized in less than 8 weeks, is it?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
 
-                </div>
             </div>
-            <div class="dtc-ns w-100 w-33-ns">
-                <h3 class="f4 f3-ns dark-gray underline tc">Twitter</h3>
-                <div class="measure-m measure-wide-l f6 f5-ns center mt4">
 
-                </div>
-            </div>
-        </div>
-        <div class="w-100 center vh-25">
-            <h2 class="f4 f3-ns dark-gray code underline tc">Sponsors</h2>
         </div>
     </div>
 
-    <div class="mt2 w-100 cliphero-3 bg-navy">
+
+    <div class="mt3 mt5-ns w-100 relative">
+        <div class="w-100 center h3">
+            <h2 class="f4 f3-ns dark-gray code underline tc">Partners</h2>
+        </div>
+    </div>
+
+    <footer class="mt2 w-100 cliphero-3 bg-navy bt static">
         <div class="dt-ns w-100 w-80-l pl6-ns code near-white f6 pt5 pb2 center">
             <div class="dt-row-ns center">
                 <div class="dtc-ns pl0 pl2-ns tc tl-ns">
@@ -223,10 +251,10 @@
         </div>
 
         <div class="w-100 center pv1">
-            <p class="f6 near-white tc i" style="font-family:'Comic Sans MS'">Jeff woz here</p>
+            <p class="f6 near-white tc i" style="font-family:'Comic Sans MS', cursive, sans-serif">Jeff woz here</p>
         </div>
 
-    </div>
+    </footer>
 </body>
 
 </html>
