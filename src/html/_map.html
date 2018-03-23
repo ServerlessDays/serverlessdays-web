@@ -1,0 +1,94 @@
+<div class="w-100 clearfix pt2-ns relative bg-grad7">
+    <div id="serverlessdays-map"></div>
+</div>
+
+<script>
+function initServerlessDaysMap() {
+    var map = new google.maps.Map(document.getElementById('serverlessdays-map'), {
+        zoom: 2,
+        center: {lat: 18.0, lng: 11.0}
+    });
+
+    var markers = [],
+        infoWindows = [],
+        events = @@include('./events.json'); // inlined json
+
+    for(var i = 0; i < events.length; i++) {
+        var event = events[i];
+        createMarker(event);
+    }
+
+    function createMarker(event) {
+        var title = "ServerlessDays " + event.label;
+        var marker = new google.maps.Marker({
+            position: event.loc,
+            map: map,
+            title: title,
+            icon: getRandomIcon()
+        });
+        markers.push(marker);
+
+        var html =
+            "<strong>" + title + "</strong>" +
+            "<p>" + (event.date || "More news coming soon!") + "</p>"
+            /* +
+            (event.website ?
+                "<a href='" + event.website + "'>" + event.website.replace('https://', '') + "</a>" : ""
+            )*/
+            +
+            (event.email ?
+                "<strong>Want to help/contribute?</strong>" +
+                "<br/> Drop us a line at <a href='" + event.email + "'>" + event.email + "</a>!" : ""
+            )
+        ;
+        var infoWindow = new google.maps.InfoWindow({
+            content: html
+        });
+        infoWindows.push(infoWindow);
+
+        marker.addListener('click', function() {
+            for(var j = 0; j < infoWindows.length; j++) {
+                infoWindows[j].close();
+            }
+            infoWindow.open(map, marker);
+        });
+    }
+
+    function getRandomIcon() {
+        var icons = {
+            'c_scale,w_90/v1518368936/octo_mascot_usu91v.png': {
+                width: 90, height: 83
+            },
+            'c_scale,w_80/v1518368936/unicorn_mascot_1_vyq3zb.png': {
+                width: 80, height: 104
+            },
+            'c_scale,w_100/v1518368936/Moth_mascot_jeph83.png': {
+                width: 100, height: 89
+            },
+            'c_scale,w_100/v1518368935/owl_mascot_tfpz2j.png': {
+                width: 100, height: 85
+            },
+            'c_scale,w_70/v1518368936/Dino_mascot_1_ycezll.png': {
+                width: 70, height: 99
+            },
+            'c_scale,w_90/v1518368935/Anteater_png_3_hy7l5s.png': {
+                width: 90, height: 83
+            },
+            'c_scale,w_60/v1486988424/SERVERLESS_NO_BACKGROUND_opzcgz.png': {
+                width: 60, height: 90
+            }
+        };
+        var url = Object.keys(icons)[Math.floor(Math.random() * Object.keys(icons).length)];
+        var size = icons[url];
+        return {
+            url: 'https://res.cloudinary.com/senzo/image/upload/' + url,
+            scaledSize: {
+                width: size.width / 3,  // scale down 1/3
+                height: size.height / 3  // scale down  1/3
+            }
+        };
+    }
+}
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTqG8EFyK6BZpk2PQFY_2N9WnBuxSESb4
+&callback=initServerlessDaysMap"></script>
