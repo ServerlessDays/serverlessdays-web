@@ -6,7 +6,9 @@
 function initServerlessDaysMap() {
     var map = new google.maps.Map(document.getElementById('serverlessdays-map'), {
         zoom: 2,
-        center: {lat: 18.0, lng: 11.0}
+        center: {lat: 18.0, lng: 11.0},
+        streetViewControl: false,
+        mapTypeControl: false
     });
 
     var markers = [],
