@@ -31,17 +31,19 @@ function initServerlessDaysMap() {
         markers.push(marker);
 
         var html =
-            "<strong>" + title + "</strong>" +
-            "<p>" + (event.date || "More news coming soon!") + "</p>"
-            /* +
-            (event.website ?
-                "<a href='" + event.website + "'>" + event.website.replace('https://', '') + "</a>" : ""
-            )*/
-            +
-            (event.email ?
-                "<strong>Want to help/contribute?</strong>" +
-                "<br/> Drop us a line at <a href='" + event.email + "'>" + event.email + "</a>!" : ""
-            )
+            "<div class='avenir'>" +
+                "<div class='b mb1-ns'>" + title + "</div>" +
+                "<div>" + (event.date || "More news coming soon!") + "</div>"
+                /* +
+                (event.website ?
+                    "<a target='_blank' href='" + event.website + "'>" + event.website.replace('https://', '') + "</a>" : ""
+                )*/
+                +
+                (event.email ?
+                    "<div class='b mt2-ns mb1-ns'>Want to help/contribute?</div>" +
+                    "<div>Drop us a line at <a target='_blank' href='mailto:" + event.email + "'>" + event.email + "</a>!</div>" : ""
+                ) +
+            "</div>"
         ;
         var infoWindow = new google.maps.InfoWindow({
             content: html
