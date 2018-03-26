@@ -1,0 +1,3 @@
+# Welcome to ServerlessDays
+User-agent: *
+Allow: /
