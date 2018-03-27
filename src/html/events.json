@@ -1,0 +1,57 @@
+[{
+    "label": "London",
+    "loc": {"lat": 51.5127, "lng": -0.0906},
+    "website": "https://london.serverlessdays.io",
+    "date": "6 July 2018",
+    "email": "london@serverlessdays.io"
+}, {
+    "label": "Amsterdam",
+    "loc": {"lat": 52.3702, "lng": 4.8952},
+    "email": "amsterdam@serverlessdays.io"
+}, {
+    "label": "Vienna",
+    "loc": {"lat": 48.2082, "lng": 16.3738},
+    "date": "10 October 2018",
+    "email": "vienna@serverlessdays.io"
+}, {
+    "label": "Milan",
+    "loc": {"lat": 45.4642, "lng": 9.1900},
+    "email": "milan@serverlessdays.io"
+}, {
+    "label": "Hamburg",
+    "loc": {"lat": 53.5511, "lng": 9.9937},
+    "email": "hamburg@serverlessdays.io"
+}, {
+    "label": "Dublin",
+    "loc": {"lat": 53.3498, "lng": -6.2603},
+    "email": "dublin@serverlessdays.io"
+}, {
+    "label": "Tel Aviv",
+    "loc": {"lat": 32.0853, "lng": 34.7818},
+    "email": "telaviv@serverlessdays.io"
+}, {
+    "label": "San Francisco",
+    "loc": {"lat": 37.7749, "lng": -122.4194},
+    "email": "sanfrancisco@serverlessdays.io"
+}, {
+    "label": "Seattle",
+    "loc": {"lat": 47.6062, "lng": -122.3321},
+    "email": "seattle@serverlessdays.io"
+}, {
+    "label": "Auckland",
+    "loc": {"lat": -36.8485, "lng": 174.7633},
+    "date": "6 June 2018",
+    "email": "auckland@serverlessdays.io"
+}, {
+    "label": "New York",
+    "loc": {"lat": 40.7128, "lng": -74.0060},
+    "email": "newyork@serverlessdays.io"
+}, {
+    "label": "Boston",
+    "loc": {"lat": 42.3601, "lng": -71.0589},
+    "email": "boston@serverlessdays.io"
+}, {
+    "label": "Toronto",
+    "loc": {"lat": 43.6532, "lng": -79.3832},
+    "email": "toronto@serverlessdays.io"
+}]
