@@ -37,7 +37,8 @@ gulp.task('minify', ['fileinclude'], function() {
 gulp.task('copy', function() {
     return gulp.src([
             'src/_redirects',
-            'src/*.xml'
+            'src/*.xml',
+            'src/*.txt'
         ])
         .pipe(gulp.dest('dist'));
 });
