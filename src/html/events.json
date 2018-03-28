@@ -28,7 +28,7 @@
 }, {
     "label": "Tel Aviv",
     "loc": {"lat": 32.0853, "lng": 34.7818},
-    "email": "telaviv@serverlessdays.io"
+    "email": "tlv@serverlessdays.io"
 }, {
     "label": "San Francisco",
     "loc": {"lat": 37.7749, "lng": -122.4194},
