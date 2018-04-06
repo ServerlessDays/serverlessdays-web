@@ -6,9 +6,10 @@ var pump = require('pump');
 var historyApiFallback = require('connect-history-api-fallback');
 var fileinclude = require('gulp-file-include');
 var browserSync = require('browser-sync').create();
+var del = require('del');
 
 gulp.task('compress', function(cb) {
-    pump([
+    return pump([
             gulp.src('src/*.js'),
             uglify(),
             gulp.dest('dist')
@@ -17,8 +18,15 @@ gulp.task('compress', function(cb) {
     );
 });
 
-gulp.task('fileinclude', function() {
-    gulp.src(['src/html/**/*.html'])
+gulp.task('clean', function () {
+    return del([
+        'dist/**',
+        'src/html-compiled/**',
+    ]);
+});
+
+gulp.task('fileinclude', ['clean'], function(callback) {
+    return gulp.src(['src/html/**/*.html'])
       .pipe(fileinclude({
         prefix: '@@',
         basepath: '@file'
@@ -53,7 +61,7 @@ gulp.task('watch', ['fileinclude', 'browser-sync'], function () {
     gulp.watch("./src/html/*.json", ['include-watch']);
 });
 
-function simpleURLRewrite(req,res,next) {
+function simpleURLRewrite(req, res, next) {
     if (req.url === '/') {
         req.url = "/index/";
     }

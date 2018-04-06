@@ -19,6 +19,7 @@
   "devDependencies": {
     "browser-sync": "^2.23.3",
     "connect-history-api-fallback": "^1.5.0",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-file-include": "^2.0.1",
     "gulp-htmlmin": "^4.0.0",
