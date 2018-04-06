@@ -31,13 +31,13 @@ function initServerlessDaysMap() {
         markers.push(marker);
 
         var html =
-            "<div class='avenir'>" +
+            "<div class='avenir map-info'>" +
                 "<div class='b mb1-ns'>" + title + "</div>" +
                 "<div>" + (event.date || "More news coming soon!") + "</div>"
-                /* +
+                +
                 (event.website ?
-                    "<a target='_blank' href='" + event.website + "'>" + event.website.replace('https://', '') + "</a>" : ""
-                )*/
+                    "<a title='Visit the local website!' target='_blank' href='" + event.website + "'>" + event.website.replace('https://', '') + "</a>" : ""
+                )
                 +
                 (event.email ?
                     "<div class='b mt2-ns mb1-ns'>Want to help/contribute?</div>" +
