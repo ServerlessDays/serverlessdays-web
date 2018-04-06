@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var htmlmin = require('gulp-htmlmin');
 var uglify = require('gulp-uglify');
 var minifyInline = require('gulp-minify-inline');
+var minifyInlineJSON = require('gulp-minify-inline-json');
 var pump = require('pump');
 var historyApiFallback = require('connect-history-api-fallback');
 var fileinclude = require('gulp-file-include');
@@ -39,6 +40,7 @@ gulp.task('minify', ['fileinclude'], function() {
     return gulp.src('src/html-compiled/**/*.html')
         .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(minifyInline())
+        .pipe(minifyInlineJSON())
         .pipe(gulp.dest('dist'));
 });
 
