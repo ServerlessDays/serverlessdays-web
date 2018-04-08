@@ -63,6 +63,11 @@ gulp.task('watch', ['fileinclude', 'browser-sync'], function () {
     gulp.watch("./src/html/*.json", ['include-watch']);
 });
 
+gulp.task('watch-dist', ['build'], function () {
+    "use strict";
+    gulp.watch("./dist/*.html", browserSync.reload);
+});
+
 function simpleURLRewrite(req, res, next) {
     if (req.url === '/') {
         req.url = "/index/";
@@ -83,4 +88,15 @@ gulp.task('browser-sync', ['fileinclude'], function() {
     });
 });
 
+gulp.task('browser-sync-dist', ['build'], function() {
+    browserSync.init({
+        server: {
+            baseDir: "./dist/",
+        },
+        middleware: simpleURLRewrite,
+    });
+});
+
 gulp.task('default', ['watch']);
+
+gulp.task('dist', ['watch-dist', 'browser-sync-dist']);
