@@ -27,7 +27,9 @@
     "email": "dublin@serverlessdays.io"
 }, {
     "label": "Tel Aviv",
-    "loc": {"lat": 32.0853, "lng": 34.7818},
+    "loc": {"lat": 32.071751, "lng": 34.789118},
+    "website": "https://tlv.serverlessdays.io",
+    "date": "23 May 2018",
     "email": "tlv@serverlessdays.io"
 }, {
     "label": "San Francisco",
