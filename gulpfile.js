@@ -70,10 +70,10 @@ gulp.task('watch-dist', ['build'], function () {
 
 function simpleURLRewrite(req, res, next) {
     if (req.url === '/') {
-        req.url = "/index/";
+        req.url = "/index";
     }
-    if (req.url.endsWith('/')) {
-        req.url = req.url.slice(0, -1) + ".html";
+    if (req.url.indexOf('.') === -1) {
+        req.url += ".html";
     }
     return next();
 }
