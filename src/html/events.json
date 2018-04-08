@@ -56,4 +56,10 @@
     "label": "Toronto",
     "loc": {"lat": 43.6532, "lng": -79.3832},
     "email": "toronto@serverlessdays.io"
+}, {
+    "label": "Tel Aviv",
+    "loc": {"lat": 32.071751, "lng": 34.789118},
+    "website": "https://tlv.serverlessdays.io",
+    "date": "23 May 2018",
+    "email": "tlv@serverlessdays.io"
 }]
