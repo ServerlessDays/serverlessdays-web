@@ -25,6 +25,7 @@
     "gulp-htmlmin": "^4.0.0",
     "gulp-minify-inline": "^1.0.0",
     "gulp-minify-inline-json": "^1.3.0",
+    "gulp-plumber": "^1.2.0",
     "gulp-uglify": "^3.0.0",
     "pump": "^2.0.0"
   },
