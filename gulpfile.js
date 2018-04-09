@@ -8,6 +8,7 @@ var historyApiFallback = require('connect-history-api-fallback');
 var fileinclude = require('gulp-file-include');
 var browserSync = require('browser-sync').create();
 var del = require('del');
+var plumber = require('gulp-plumber');
 
 gulp.task('compress', function(cb) {
     return pump([
@@ -27,7 +28,8 @@ gulp.task('clean', function () {
 });
 
 gulp.task('fileinclude', ['clean'], function(callback) {
-    return gulp.src(['src/html/**/*.html'])
+    return gulp.src(['src/html/*.html'])
+      .pipe(plumber())
       .pipe(fileinclude({
         prefix: '@@',
         basepath: '@file'
@@ -60,7 +62,7 @@ gulp.task('include-watch', ['fileinclude'], browserSync.reload);
 gulp.task('watch', ['fileinclude', 'browser-sync'], function () {
     "use strict";
     gulp.watch("./src/html/*.html", ['include-watch']);
-    gulp.watch("./src/html/*.json", ['include-watch']);
+    gulp.watch("./src/*.json", ['include-watch']);
 });
 
 gulp.task('watch-dist', ['build'], function () {
