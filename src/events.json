@@ -19,7 +19,8 @@
 }, {
     "label": "Vienna",
     "loc": {"lat": 48.2082, "lng": 16.3738},
-    "date": "10 October 2018"
+    "date": "10 October 2018",
+    "email": "vienna@serverlessdays.io"
 }, {
     "label": "Milan",
     "loc": {"lat": 45.4642, "lng": 9.1900},
