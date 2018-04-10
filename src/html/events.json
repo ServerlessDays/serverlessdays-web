@@ -73,6 +73,8 @@
     "label": "Singapore",
     "loc": {"lat": 1.351751, "lng": 103.868268},
     "email": "singapore@serverlessdays.io"
+},{
+    "label": "Austin",
+    "loc": {"lat": 30.260620, "lng": -97.734214},
+    "email": "austin@serverlessdays.io"
 }]
-
-
