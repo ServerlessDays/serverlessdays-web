@@ -59,6 +59,20 @@
     "email": "toronto@serverlessdays.io"
 },{
     "label": "Istanbul",
-    "loc": {"lat": 41.034012, "lng": 28.877466},
+    "loc": {"lat": 41.0340, "lng": 28.8774},
     "email": "istanbul@serverlessdays.io"
+},{
+    "label": "Helsinki",
+    "loc": {"lat": 60.1691, "lng": 24.9369},
+    "email": "helsinki@serverlessdays.io"
+},{
+    "label": "Hong Kong",
+    "loc": {"lat": 22.323913, "lng": 114.172278},
+    "email": "hongkong@serverlessdays.io"
+},{
+    "label": "Singapore",
+    "loc": {"lat": 1.351751, "lng": 103.868268},
+    "email": "singapore@serverlessdays.io"
 }]
+
+
