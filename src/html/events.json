@@ -67,14 +67,26 @@
     "email": "helsinki@serverlessdays.io"
 },{
     "label": "Hong Kong",
-    "loc": {"lat": 22.323913, "lng": 114.172278},
+    "loc": {"lat": 22.3239, "lng": 114.1722},
     "email": "hongkong@serverlessdays.io"
 },{
     "label": "Singapore",
-    "loc": {"lat": 1.351751, "lng": 103.868268},
+    "loc": {"lat": 1.3517, "lng": 103.8682},
     "email": "singapore@serverlessdays.io"
 },{
     "label": "Austin",
-    "loc": {"lat": 30.260620, "lng": -97.734214},
+    "loc": {"lat": 30.2606, "lng": -97.7342},
     "email": "austin@serverlessdays.io"
+},{
+    "label": "Berlin",
+    "loc": {"lat": 52.5177, "lng": 13.3986},
+    "email": "berlin@serverlessdays.io"
+},{
+    "label": "Cardiff",
+    "loc": {"lat": 51.4824, "lng": -3.1746},
+    "email": "cardiff@serverlessdays.io"
+},{
+    "label": "Charlotte",
+    "loc": {"lat": 35.2264, "lng": -80.8410},
+    "email": "charlotte@serverlessdays.io"
 }]
