@@ -61,7 +61,7 @@ gulp.task('include-watch', ['fileinclude'], browserSync.reload);
 
 gulp.task('watch', ['fileinclude', 'browser-sync'], function () {
     "use strict";
-    gulp.watch("./src/html/*.html", ['include-watch']);
+    gulp.watch("./src/html/*/*.html", ['include-watch']);
     gulp.watch("./src/*.json", ['include-watch']);
 });
 
