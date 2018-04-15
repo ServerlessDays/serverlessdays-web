@@ -20,7 +20,8 @@
     "label": "Vienna",
     "loc": {"lat": 48.2082, "lng": 16.3738},
     "date": "10 October 2018",
-    "email": "vienna@serverlessdays.io"
+    "email": "vienna@serverlessdays.io",
+    "website": "https://vienna.serverlessdays.io"
 }, {
     "label": "Milan",
     "loc": {"lat": 45.4642, "lng": 9.1900},
@@ -60,6 +61,34 @@
     "email": "toronto@serverlessdays.io"
 },{
     "label": "Istanbul",
-    "loc": {"lat": 41.034012, "lng": 28.877466},
+    "loc": {"lat": 41.0340, "lng": 28.8774},
     "email": "istanbul@serverlessdays.io"
+},{
+    "label": "Helsinki",
+    "loc": {"lat": 60.1691, "lng": 24.9369},
+    "email": "helsinki@serverlessdays.io"
+},{
+    "label": "Hong Kong",
+    "loc": {"lat": 22.3239, "lng": 114.1722},
+    "email": "hongkong@serverlessdays.io"
+},{
+    "label": "Singapore",
+    "loc": {"lat": 1.3517, "lng": 103.8682},
+    "email": "singapore@serverlessdays.io"
+},{
+    "label": "Austin",
+    "loc": {"lat": 30.2606, "lng": -97.7342},
+    "email": "austin@serverlessdays.io"
+},{
+    "label": "Berlin",
+    "loc": {"lat": 52.5177, "lng": 13.3986},
+    "email": "berlin@serverlessdays.io"
+},{
+    "label": "Cardiff",
+    "loc": {"lat": 51.4824, "lng": -3.1746},
+    "email": "cardiff@serverlessdays.io"
+},{
+    "label": "Charlotte",
+    "loc": {"lat": 35.2264, "lng": -80.8410},
+    "email": "charlotte@serverlessdays.io"
 }]
