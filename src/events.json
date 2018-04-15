@@ -21,7 +21,8 @@
     "loc": {"lat": 48.2082, "lng": 16.3738},
     "date": "10 October 2018",
     "email": "vienna@serverlessdays.io",
-    "website": "https://vienna.serverlessdays.io"
+    "website": "https://vienna.serverlessdays.io",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1523812133/vienna-2018.jpg"
 }, {
     "label": "Milan",
     "loc": {"lat": 45.4642, "lng": 9.1900},
