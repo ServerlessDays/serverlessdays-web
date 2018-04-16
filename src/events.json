@@ -92,4 +92,8 @@
     "label": "Charlotte",
     "loc": {"lat": 35.2264, "lng": -80.8410},
     "email": "charlotte@serverlessdays.io"
+},{
+    "label": "São Paulo",
+    "loc": {"lat": -23.568924, "lng": -46.651302},
+    "email": "saopaulo@serverlessdays.io"
 }]
