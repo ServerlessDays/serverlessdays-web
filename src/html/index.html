@@ -3,12 +3,12 @@
 <head>
     <title>ServerlessDays</title>
     <link rel="canonical" href="https://www.serverlessdays.io" />
-    @@include('./_headers.html')
+    @@include('./fragments/_headers.html')
 </head>
 
 <body class="page-index">
     
-    @@include('./_menu.html')
+    @@include('./fragments/_menu.html')
 
     <div class="w-100 bg-grad6 mt5-ns relative pb3">
         <div class="w-90 center">
@@ -46,36 +46,11 @@
             <img class="pa0 ma0 v-mid" title="I am Jeff's friend!" alt="Upcoming events" src="https://res.cloudinary.com/senzo/image/upload/c_scale,w_280/v1518368935/owl_mascot_tfpz2j.png" />
         </div>
 
-        <div class="dt-ns center">
-            
-        <!--
-            <div class="dtc-ns w6 pa3 center">
-                <div class="center shadow-5 pointer">
-                    <div class="h5 bg-light-gray hide-child">
-                        <div class="avenir white w-100 h-100 child bg-black-30 pa4 v-mid tc">
-                            <p class="b">JeffConf Hamburg</p>
-                            <p>SOLD OUT!</p>
-                        </div>
-                    </div>
-                    <div class="h3 bg-white">
-                        <p class="avenir f5 dark-gray ma0 tc pt3">Hamburg, 16 February 2018</p>
-                    </div>
-                </div>
-            </div>
-        -->
-            <div class="dtc-ns w6 pa3 center">
-                <div class="center shadow-5">
-                    <div class="h5 bg-light-gray hide-child cover" style="background-image: url(https://res.cloudinary.com/senzo/image/upload/c_crop,h_480,w_480/c_scale,h_280,w_280/v1496226823/St_John_the_Baptist__Hoxton_-_geograph.org.uk_-_1507811_r3ipbq.jpg)">
-                        <div class="avenir white w-100 h-100 child bg-black-50 pa4 v-mid tc">
-                            <p>Details to be announced shortly ...</p>
-                        </div>
-                    </div>
-                    <div class="h3 bg-white">
-                        <p class="avenir f5 dark-gray ma0 tc pt3">London, 6 July 2018</p>
-                    </div>
-                </div>
-            </div>
-            <div class="dtc-ns w6 pa3 center">
+        <div class="dt-ns center two-columns">
+
+            @@loop("fragments/_event.html", "../events.json")
+
+            <div class="dtc-ns w6 pa3 center serverlessdays-event">
                 <div class="center shadow-5">
                     <div class="h5 bg-light-gray hide-child cover o-50" style="background-image: url(https://res.cloudinary.com/senzo/image/upload/c_scale,w_200/v1486988424/SERVERLESS_NO_BACKGROUND_opzcgz.png)">
                         <div class="avenir white w-100 h-100 child bg-black-50 pa4 v-mid tc">
@@ -93,9 +68,9 @@
     
     </div>
 
-    @@include('./_news.html')
+    @@include('./fragments/_news.html')
 
-    @@include('./_footer.html')
+    @@include('./fragments/_footer.html')
 
 </body>
 </html>

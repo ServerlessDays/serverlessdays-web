@@ -54,7 +54,8 @@
     .page-map .nav-map,
     .page-organise .nav-organise,
     .page-coc .nav-coc,
-    .page-previous .nav-previous  {
+    .page-previous .nav-previous,
+    .page-events .nav-events  {
         text-decoration: underline;
     }
     
@@ -62,6 +63,13 @@
         vertical-align: top;
     }
     
+    .serverlessdays-event {
+        float: left;
+    }
+    .three-columns .serverlessdays-event:nth-child(3n+1),
+    .two-columns .serverlessdays-event:nth-child(2n+1){
+        clear: both;
+    }
     </style>
 
     <script type='application/ld+json'>
