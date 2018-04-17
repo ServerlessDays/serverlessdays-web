@@ -96,4 +96,8 @@
     "label": "São Paulo",
     "loc": {"lat": -23.568924, "lng": -46.651302},
     "email": "saopaulo@serverlessdays.io"
+},{
+    "label": "Chicago",
+    "loc": {"lat": 41.876609, "lng": -87.631746},
+    "email": "chicago@serverlessdays.io"
 }]
