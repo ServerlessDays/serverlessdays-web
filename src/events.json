@@ -44,12 +44,12 @@
     "loc": {"lat": 47.6062, "lng": -122.3321},
     "email": "seattle@serverlessdays.io"
 }, {
-    “label”: “Auckland”,
-    “loc”: {“lat”: -36.8485, “lng”: 174.7633},
-    “date”: “5 June 2018”,
-    “email”: “auckland@serverlessdays.io”,
-    "website”: “https://auckland.serverlessdays.io“,
-    “image”: “https://res.cloudinary.com/dtsyxzxfx/image/upload/x_350,y_50,w_2566,h_2566,c_crop/w_280,h_280,c_scale,f_auto,q_auto/v1523129875/samuel-ferrara-503754-unsplash.jpg"
+    "label": "Auckland",
+    "loc": {"lat": -36.8485, "lng": 174.7633},
+    "date": "5 June 2018",
+    "email": "auckland@serverlessdays.io",
+    "website": "https://auckland.serverlessdays.io",
+    "image": "https://res.cloudinary.com/dtsyxzxfx/image/upload/x_350,y_50,w_2566,h_2566,c_crop/w_280,h_280,c_scale,f_auto,q_auto/v1523129875/samuel-ferrara-503754-unsplash.jpg"
 }, {
     "label": "New York",
     "loc": {"lat": 40.7128, "lng": -74.0060},
