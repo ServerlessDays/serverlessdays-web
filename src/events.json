@@ -37,6 +37,7 @@
 }, {
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
+    "date": "15 February 2019",
     "email": "hamburg@serverlessdays.io"
 }, {
     "label": "Dublin",
