@@ -103,4 +103,8 @@
     "label": "Chicago",
     "loc": {"lat": 41.876609, "lng": -87.631746},
     "email": "chicago@serverlessdays.io"
+},{
+    "label": "Zürich",
+    "loc": {"lat": 47.3766, "lng": 8.5332},
+    "email": "zurich@serverlessdays.io"
 }]
