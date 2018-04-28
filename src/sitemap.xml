@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
    <loc>https://www.serverlessdays.io</loc>
-   <lastmod>2018-04-08</lastmod>
-   <changefreq>weekly</changefreq>
+   <lastmod>2018-04-28</lastmod>
+   <changefreq>daily</changefreq>
    <priority>0.8</priority>
 </url>
 <url>
    <loc>https://www.serverlessdays.io/organise</loc>
-   <lastmod>2018-04-08</lastmod>
+   <lastmod>2018-04-28</lastmod>
    <changefreq>daily</changefreq>
    <priority>0.7</priority>
 </url>
 <url>
    <loc>https://www.serverlessdays.io/coc</loc>
-   <lastmod>2018-04-08</lastmod>
+   <lastmod>2018-04-28</lastmod>
    <changefreq>weekly</changefreq>
    <priority>0.6</priority>
 </url>
 <url>
    <loc>https://www.serverlessdays.io/map</loc>
-   <lastmod>2018-04-08</lastmod>
+   <lastmod>2018-04-28</lastmod>
    <changefreq>daily</changefreq>
    <priority>0.8</priority>
 </url>
 <url>
    <loc>https://www.serverlessdays.io/previous</loc>
-   <lastmod>2018-04-08</lastmod>
+   <lastmod>2018-04-28</lastmod>
    <changefreq>weekly</changefreq>
    <priority>0.6</priority>
+</url>
+url>
+   <loc>https://www.serverlessdays.io/events</loc>
+   <lastmod>2018-04-28</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.7</priority>
 </url>
 </urlset>
