@@ -63,12 +63,14 @@
         vertical-align: top;
     }
     
-    .serverlessdays-event {
-        float: left;
-    }
-    .three-columns .serverlessdays-event:nth-child(3n+1),
-    .two-columns .serverlessdays-event:nth-child(2n+1){
-        clear: both;
+    @media screen and (min-width: 30em) {
+        .serverlessdays-event {
+            float: left;
+        }
+        .three-columns .serverlessdays-event:nth-child(3n+1),
+        .two-columns .serverlessdays-event:nth-child(2n+1){
+            clear: both;
+        }
     }
     </style>
 
