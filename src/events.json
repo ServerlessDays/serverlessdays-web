@@ -48,6 +48,10 @@
     "loc": {"lat": 37.7749, "lng": -122.4194},
     "email": "sanfrancisco@serverlessdays.io"
 }, {
+    "label": "Los Angeles",
+    "loc": {"lat": 34.0070, "lng": -118.3019},
+    "email": "losangeles@serverlessdays.io"
+}, {
     "label": "Seattle",
     "loc": {"lat": 47.6062, "lng": -122.3321},
     "email": "seattle@serverlessdays.io"
