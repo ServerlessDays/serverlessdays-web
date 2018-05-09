@@ -131,4 +131,8 @@
     "label": "Lviv",
     "loc": {"lat": 49.8353, "lng": 24.0264},
     "email": "lviv@serverlessdays.io"
+},{
+    "label": "Denver",
+    "loc": {"lat": 39.7249, "lng": -104.9732},
+    "email": "denver@serverlessdays.io"
 }]
