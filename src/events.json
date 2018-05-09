@@ -123,4 +123,8 @@
     "label": "Santiago",
     "loc": {"lat": -33.4592, "lng": -70.6477},
     "email": "santiago@serverlessdays.io"
+},{
+    "label": "Lima",
+    "loc": {"lat": -12.0489, "lng": -77.0430},
+    "email": "lima@serverlessdays.io"
 }]
