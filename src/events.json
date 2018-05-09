@@ -119,4 +119,8 @@
     "label": "Bogotá",
     "loc": {"lat": 4.6083, "lng": -74.0837},
     "email": "bogota@serverlessdays.io"
+},{
+    "label": "Santiago",
+    "loc": {"lat": -33.4592, "lng": -70.6477},
+    "email": "santiago@serverlessdays.io"
 }]
