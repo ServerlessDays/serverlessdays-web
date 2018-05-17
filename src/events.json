@@ -101,11 +101,11 @@
     "email": "charlotte@serverlessdays.io"
 },{
     "label": "São Paulo",
-    "loc": {"lat": -23.568924, "lng": -46.651302},
+    "loc": {"lat": -23.5689, "lng": -46.6513},
     "email": "saopaulo@serverlessdays.io"
 },{
     "label": "Chicago",
-    "loc": {"lat": 41.876609, "lng": -87.631746},
+    "loc": {"lat": 41.8766, "lng": -87.6317},
     "email": "chicago@serverlessdays.io"
 },{
     "label": "Zürich",
