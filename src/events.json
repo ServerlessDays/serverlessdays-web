@@ -135,4 +135,8 @@
     "label": "Denver",
     "loc": {"lat": 39.7249, "lng": -104.9732},
     "email": "denver@serverlessdays.io"
+},{
+    "label": "Seoul",
+    "loc": {"lat": 37.5406, "lng": 126.9906},
+    "email": "seoul@serverlessdays.io"
 }]
