@@ -36,7 +36,10 @@
 }, {
     "label": "Milan",
     "loc": {"lat": 45.4642, "lng": 9.1900},
-    "email": "milan@serverlessdays.io"
+    "email": "milan@serverlessdays.io",
+    "date": "19 October 2018",
+    "website": "https://milan.serverlessdays.io",
+    "image": "http://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1528793339/la-feltrinelli-libreria-milano.jpg"
 }, {
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
