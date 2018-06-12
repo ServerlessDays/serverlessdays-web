@@ -23,7 +23,9 @@
     "label": "Amsterdam",
     "loc": {"lat": 52.3702, "lng": 4.8952},
     "email": "amsterdam@serverlessdays.io",
-    "date": "14 September 2018"
+    "website": "https://serverlessdays.amsterdam",
+    "date": "14 September 2018",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
 }, {
     "label": "Vienna",
     "loc": {"lat": 48.2082, "lng": 16.3738},
