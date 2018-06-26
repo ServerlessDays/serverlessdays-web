@@ -157,4 +157,8 @@
     "label": "Madrid",
     "loc": {"lat": 40.4156, "lng": -3.7063},
     "email": "madrid@serverlessdays.io"
+},{
+    "label": "Jaipur",
+    "loc": {"lat": 26.9126, "lng": 75.7905},
+    "email": "jaipur@serverlessdays.io"
 }]
