@@ -158,10 +158,6 @@
     "loc": {"lat": 37.5406, "lng": 126.9906},
     "email": "seoul@serverlessdays.io"
 },{
-    "label": "Portland",
-    "loc": {"lat": 45.5199, "lng": -122.6173},
-    "email": "portland@serverlessdays.io"
-},{
     "label": "Atlanta",
     "loc": {"lat": 33.7493, "lng": -84.3855},
     "email": "atlanta@serverlessdays.io"
