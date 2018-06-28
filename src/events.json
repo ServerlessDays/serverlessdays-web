@@ -76,10 +76,6 @@
     "label": "Boston",
     "loc": {"lat": 42.3601, "lng": -71.0589},
     "email": "boston@serverlessdays.io"
-}, {
-    "label": "Toronto",
-    "loc": {"lat": 43.6532, "lng": -79.3832},
-    "email": "toronto@serverlessdays.io"
 },{
     "label": "Istanbul",
     "loc": {"lat": 41.0340, "lng": 28.8774},
