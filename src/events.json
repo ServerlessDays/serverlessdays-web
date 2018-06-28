@@ -26,7 +26,16 @@
     "website": "https://serverlessdays.amsterdam",
     "date": "14 September 2018",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
-}, {
+},{
+    "label": "Toronto",
+    "loc": {"lat": 43.643485, "lng": -79.380961},
+    "email": "toronto@serverlessdays.io",
+    "website": "http://functions.events",
+    "date": "28 September 2018",
+    "image": "https://github.com/functions-conf/brand/blob/master/social/serverlessdays-website.png"
+},
+ 
+ {
     "label": "Vienna",
     "loc": {"lat": 48.2082, "lng": 16.3738},
     "date": "10 October 2018",
