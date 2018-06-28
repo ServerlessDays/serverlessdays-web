@@ -32,7 +32,7 @@
     "email": "toronto@serverlessdays.io",
     "website": "http://functions.events",
     "date": "28 September 2018",
-    "image": "https://raw.githubusercontent.com/functions-conf/brand/master/social/serverlessdays-website.png"
+    "image": "https://raw.githubusercontent.com/functions-conf/brand/38d3160bacc95d3279662369d7ab8db6b5fd2c6b/social/serverlessdays-website.png"
 }, {
     "label": "Vienna",
     "loc": {"lat": 48.2082, "lng": 16.3738},
