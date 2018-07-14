@@ -75,8 +75,11 @@
     "email": "losangeles@serverlessdays.io"
 }, {
     "label": "Seattle",
-    "loc": {"lat": 47.6062, "lng": -122.3321},
-    "email": "seattle@serverlessdays.io"
+    "loc": {"lat": 47.624567, "lng": -122.350416},
+    "email": "seattle@serverlessdays.io",
+    "date": "4 October 2018",
+    "website": "https://seattle.serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/mweagle/ServerlessDays-Seattle/master/public/media/seattle-870282_1920.jpg"
 }, {
     "label": "New York",
     "loc": {"lat": 40.7128, "lng": -74.0060},
