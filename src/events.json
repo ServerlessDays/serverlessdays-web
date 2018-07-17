@@ -19,13 +19,11 @@
     "date": "6 July 2018",
     "email": "london@serverlessdays.io",
     "image": "https://res.cloudinary.com/senzo/image/upload/c_scale,h_280,w_280/v1496226823/St_John_the_Baptist__Hoxton_-_geograph.org.uk_-_1507811_r3ipbq.jpg"
-}, {
+}, 
+{
     "label": "Amsterdam",
     "loc": {"lat": 52.3702, "lng": 4.8952},
-    "email": "amsterdam@serverlessdays.io",
-    "website": "https://serverlessdays.amsterdam",
-    "date": "14 September 2018",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
+    "email": "amsterdam@serverlessdays.io"
 },
   {
     "label": "Portland",
@@ -35,14 +33,23 @@
     "date": "17 September 2018",
     "image": "https://raw.githubusercontent.com/stackery/ServerlessDays-PDX/master/public/media/pdx_square_logo.png"
 },
- {
+{
     "label": "Toronto",
     "loc": {"lat": 43.643485, "lng": -79.380961},
     "email": "toronto@serverlessdays.io",
     "website": "https://functions.events",
     "date": "28 September 2018",
     "image": "https://raw.githubusercontent.com/functions-conf/brand/38d3160bacc95d3279662369d7ab8db6b5fd2c6b/social/serverlessdays-website.png"
-}, {
+}, 
+{
+    "label": "Seattle",
+    "loc": {"lat": 47.624567, "lng": -122.350416},
+    "email": "seattle@serverlessdays.io",
+    "date": "4 October 2018",
+    "website": "https://seattle.serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/mweagle/ServerlessDays-Seattle/master/public/media/seattle-870282_1920.jpg"
+},
+{
     "label": "Vienna",
     "loc": {"lat": 48.2082, "lng": 16.3738},
     "date": "10 October 2018",
@@ -73,13 +80,6 @@
     "label": "Los Angeles",
     "loc": {"lat": 34.0070, "lng": -118.3019},
     "email": "losangeles@serverlessdays.io"
-}, {
-    "label": "Seattle",
-    "loc": {"lat": 47.624567, "lng": -122.350416},
-    "email": "seattle@serverlessdays.io",
-    "date": "4 October 2018",
-    "website": "https://seattle.serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/mweagle/ServerlessDays-Seattle/master/public/media/seattle-870282_1920.jpg"
 }, {
     "label": "New York",
     "loc": {"lat": 40.7128, "lng": -74.0060},
