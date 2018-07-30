@@ -19,16 +19,7 @@
     "date": "6 July 2018",
     "email": "london@serverlessdays.io",
     "image": "https://res.cloudinary.com/senzo/image/upload/c_scale,h_280,w_280/v1496226823/St_John_the_Baptist__Hoxton_-_geograph.org.uk_-_1507811_r3ipbq.jpg"
-}, 
-{
-    "label": "Amsterdam",
-    "loc": {"lat": 52.3702, "lng": 4.8952},
-    "email": "amsterdam@serverlessdays.io",
-    "website": "https://serverlessdays.amsterdam",
-    "date": "29 March 2019",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
-},
-  {
+}, {
     "label": "Portland",
     "loc": {"lat": 45.524176, "lng": -122.682122},
     "email": "portland@serverlessdays.io",
@@ -71,6 +62,13 @@
     "loc": {"lat": 53.5511, "lng": 9.9937},
     "date": "15 February 2019",
     "email": "hamburg@serverlessdays.io"
+},{
+    "label": "Amsterdam",
+    "loc": {"lat": 52.3702, "lng": 4.8952},
+    "email": "amsterdam@serverlessdays.io",
+    "website": "https://serverlessdays.amsterdam",
+    "date": "29 March 2019",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
 }, {
     "label": "Dublin",
     "loc": {"lat": 53.3498, "lng": -6.2603},
