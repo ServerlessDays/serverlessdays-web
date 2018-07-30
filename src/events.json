@@ -67,7 +67,9 @@
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
     "date": "15 February 2019",
-    "email": "hamburg@serverlessdays.io"
+    "website": "https://serverlessconference.de",
+    "email": "hamburg@serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/img/web%20visual.png"
 }, {
     "label": "Dublin",
     "loc": {"lat": 53.3498, "lng": -6.2603},
