@@ -174,5 +174,8 @@
 },{
     "label": "Jaipur",
     "loc": {"lat": 26.9126, "lng": 75.7905},
-    "email": "jaipur@serverlessdays.io"
+    "email": "jaipur@serverlessdays.io",
+    "website": "jaipur.serverlessdays.io",
+    "date": "28 October 2018",
+    "image":"https://www.dropbox.com/s/68zrhcpbbyaewgo/GPTempDownload%202.JPG?dl=1"
 }]
