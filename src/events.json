@@ -175,7 +175,7 @@
     "label": "Jaipur",
     "loc": {"lat": 26.9126, "lng": 75.7905},
     "email": "jaipur@serverlessdays.io",
-    "website": "jaipur.serverlessdays.io",
+    "website": "https://jaipur.serverlessdays.io",
     "date": "28 October 2018",
-    "image":"http://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
+    "image":"https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
 }]
