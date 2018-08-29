@@ -65,6 +65,13 @@
     "date": "28 October 2018",
     "image":"https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
 }, {
+    "label": "New York",
+    "loc": {"lat": 40.7128, "lng": -74.0060},
+    "email": "newyork@serverlessdays.io"
+    "website": "https://www.serverlessnyc.com/",
+    "date": "30 October 2018",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
+}, {     
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
     "date": "15 February 2019",
@@ -90,10 +97,6 @@
     "label": "Los Angeles",
     "loc": {"lat": 34.0070, "lng": -118.3019},
     "email": "losangeles@serverlessdays.io"
-}, {
-    "label": "New York",
-    "loc": {"lat": 40.7128, "lng": -74.0060},
-    "email": "newyork@serverlessdays.io"
 }, {
     "label": "Boston",
     "loc": {"lat": 42.3601, "lng": -71.0589},
