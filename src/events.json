@@ -70,7 +70,7 @@
     "email": "newyork@serverlessdays.io",
     "website": "http://nyc.serverlessdays.io",
     "date": "30 October 2018",
-    "image": "http://res.cloudinary.com/serverlessdays/image/upload/v1535624031/serverless-nyc-2018.png"
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535624031/serverless-nyc-2018.png"
 }, {     
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
