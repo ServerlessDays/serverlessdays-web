@@ -28,7 +28,10 @@
     "gulp-plumber": "^1.2.0",
     "gulp-uglify": "^3.0.0",
     "pump": "^2.0.0",
-    "hoek": "^4.2.1 "
+    "hoek": "^4.2.1 ",
+    "lodash": "~>4.17.5",
+    "mime": "~>1.4.1",
+    "sshpk": "~>1.13.2"
   },
   "dependencies": {}
 }
