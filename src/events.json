@@ -67,10 +67,10 @@
 }, {
     "label": "New York",
     "loc": {"lat": 40.7128, "lng": -74.0060},
-    "email": "newyork@serverlessdays.io"
-    "website": "https://www.serverlessnyc.com/",
+    "email": "newyork@serverlessdays.io",
+    "website": "https://nyc.serverlessdays.io",
     "date": "30 October 2018",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
+    "image": "http://res.cloudinary.com/serverlessdays/image/upload/v1535624031/serverless-nyc-2018.png"
 }, {     
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
