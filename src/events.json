@@ -34,7 +34,7 @@
     "website": "https://functions.events",
     "date": "28 September 2018",
     "image": "https://raw.githubusercontent.com/functions-conf/brand/38d3160bacc95d3279662369d7ab8db6b5fd2c6b/social/serverlessdays-website.png"
-}, 
+},
 {
     "label": "Seattle",
     "loc": {"lat": 47.624567, "lng": -122.350416},
@@ -70,6 +70,13 @@
     "website": "http://nyc.serverlessdays.io",
     "date": "30 October 2018",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535625308/serverlessdays-nyc-2018.jpg"
+}, {
+    "label": "Cardiff",
+    "loc": {"lat": 51.466, "lng": -3.216},
+    "date": "30 January 2019",
+    "website": "https://cardiff.serverlessdays.io",
+    "email": "cardiff@serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2018/master/src/imgs/serverless-cardiff-event.jpg"
 }, {     
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
