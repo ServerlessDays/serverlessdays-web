@@ -85,6 +85,13 @@
     "email": "hamburg@serverlessdays.io",
     "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/img/web%20visual.png"
 },{
+    "label": "Austin",
+    "loc": {"lat": 30.256445, "lng": -97.763543},
+    "email": "austin@serverlessdays.io",
+    "website": "https://atx.serverlessdays.io",
+    "date": "22 February 2019",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1539625701/atx-capitol.280x280.jpg"
+},{
     "label": "Amsterdam",
     "loc": {"lat": 52.3702, "lng": 4.8952},
     "email": "amsterdam@serverlessdays.io",
@@ -123,10 +130,6 @@
     "label": "Singapore",
     "loc": {"lat": 1.3517, "lng": 103.8682},
     "email": "singapore@serverlessdays.io"
-},{
-    "label": "Austin",
-    "loc": {"lat": 30.2606, "lng": -97.7342},
-    "email": "austin@serverlessdays.io"
 },{
     "label": "Berlin",
     "loc": {"lat": 52.5177, "lng": 13.3986},
