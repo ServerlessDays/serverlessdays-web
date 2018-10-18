@@ -98,6 +98,13 @@
     "website": "https://serverlessdays.amsterdam",
     "date": "29 March 2019",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
+},{
+    "label": "Zürich",
+    "loc": {"lat": 47.3766, "lng": 8.5332},
+    "email": "zurich@serverlessdays.io",
+    "date": "4 April 2019",
+    "website": "https://zurich.serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2019/master/assets/images/zurich_panorama.jpg"
 }, {
     "label": "Dublin",
     "loc": {"lat": 53.3498, "lng": -6.2603},
@@ -146,10 +153,6 @@
     "label": "Chicago",
     "loc": {"lat": 41.8766, "lng": -87.6317},
     "email": "chicago@serverlessdays.io"
-},{
-    "label": "Zürich",
-    "loc": {"lat": 47.3766, "lng": 8.5332},
-    "email": "zurich@serverlessdays.io"
 },{
     "label": "Vancouver",
     "loc": {"lat": 49.2668, "lng": -123.1170},
