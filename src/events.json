@@ -56,14 +56,7 @@
     "date": "19 October 2018",
     "website": "https://milan.serverlessdays.io",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1528793339/la-feltrinelli-libreria-milano.jpg"
-}, {
-    "label": "Jaipur",
-    "loc": {"lat": 26.9126, "lng": 75.7905},
-    "email": "jaipur@serverlessdays.io",
-    "website": "https://jaipur.serverlessdays.io",
-    "date": "28 October 2018",
-    "image":"https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
-}, {
+},{
     "label": "New York",
     "loc": {"lat": 40.7128, "lng": -74.0060},
     "email": "newyork@serverlessdays.io",
@@ -189,4 +182,10 @@
     "label": "Madrid",
     "loc": {"lat": 40.4156, "lng": -3.7063},
     "email": "madrid@serverlessdays.io"
-}]
+},{
+    "label": "Jaipur",
+    "loc": {"lat": 26.9126, "lng": 75.7905},
+    "email": "jaipur@serverlessdays.io",
+    "website": "https://jaipur.serverlessdays.io",
+    "image":"https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
+},]
