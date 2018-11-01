@@ -31,7 +31,9 @@
     "hoek": "^4.2.1 ",
     "lodash": "~>4.17.5",
     "mime": "~>1.4.1",
-    "sshpk": "~>1.13.2"
+    "sshpk": "~>1.13.2",
+    "minimatch": ">=3.0.2",
+    "randomatic": ">=3.0.0"
   },
   "dependencies": {}
 }
