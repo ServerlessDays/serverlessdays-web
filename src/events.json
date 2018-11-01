@@ -76,7 +76,7 @@
     "date": "30 January 2019",
     "website": "https://cardiff.serverlessdays.io",
     "email": "cardiff@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2018/master/src/imgs/serverless-cardiff-event.jpg"
+    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff-event.jpg"
 }, {
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
