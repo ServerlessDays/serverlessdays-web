@@ -116,7 +116,10 @@
 }, {
     "label": "Boston",
     "loc": {"lat": 42.3601, "lng": -71.0589},
-    "email": "boston@serverlessdays.io"
+    "email": "boston@serverlessdays.io",
+    "date": "12 March 2019",
+    "website": "https://boston.serverlessdays.io",
+    "image": "https://boston.serverlessdays.io/sd-bos-tile.png"
 },{
     "label": "Istanbul",
     "loc": {"lat": 41.0340, "lng": 28.8774},
