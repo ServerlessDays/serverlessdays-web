@@ -85,6 +85,13 @@
     "date": "22 February 2019",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1539625701/atx-capitol.280x280.jpg"
 },{
+    "label": "Los Angeles",
+    "loc": {"lat": 34.0919, "lng": 118.3378},
+    "email": "losangeles@serverlessdays.io",
+    "date":"27 February 2019",
+    "website":"https://serverlessdays.la",
+    "image":"https://raw.githubusercontent.com/sprkyco/ServerlessDays-LA/master/public/media/los-angeles-1840764_1920.jpg"
+},{
     "label": "Amsterdam",
     "loc": {"lat": 52.3702, "lng": 4.8952},
     "email": "amsterdam@serverlessdays.io",
@@ -106,13 +113,6 @@
     "label": "San Francisco",
     "loc": {"lat": 37.7749, "lng": -122.4194},
     "email": "sanfrancisco@serverlessdays.io"
-}, {
-    "label": "Los Angeles",
-    "loc": {"lat": 34.0919, "lng": 118.3378},
-    "email": "losangeles@serverlessdays.io",
-    "date":"27 February 2019",
-    "website":"https://serverlessdays.la",
-    "image":"https://raw.githubusercontent.com/sprkyco/ServerlessDays-LA/master/public/media/los-angeles-1840764_1920.jpg"
 }, {
     "label": "Boston",
     "loc": {"lat": 42.3601, "lng": -71.0589},
