@@ -106,6 +106,13 @@
     "date": "29 March 2019",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
 },{
+    "label": "Atlanta",
+    "loc": {"lat": 33.7493, "lng": -84.3855},
+    "email": "atlanta@serverlessdays.io",
+    "website": "https://atlanta.serverlessdays.io",
+    "date": "9 April 2019",
+    "image": "https://atlanta.serverlessdays.io/img/atlanta.jpg"
+},{
     "label": "Zürich",
     "loc": {"lat": 47.3766, "lng": 8.5332},
     "email": "zurich@serverlessdays.io",
@@ -180,10 +187,6 @@
     "label": "Seoul",
     "loc": {"lat": 37.5406, "lng": 126.9906},
     "email": "seoul@serverlessdays.io"
-},{
-    "label": "Atlanta",
-    "loc": {"lat": 33.7493, "lng": -84.3855},
-    "email": "atlanta@serverlessdays.io"
 },{
     "label": "Madrid",
     "loc": {"lat": 40.4156, "lng": -3.7063},
