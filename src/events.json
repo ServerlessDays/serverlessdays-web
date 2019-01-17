@@ -57,13 +57,6 @@
     "website": "https://milan.serverlessdays.io",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1528793339/la-feltrinelli-libreria-milano.jpg"
 },{
-    "label": "New York",
-    "loc": {"lat": 40.7128, "lng": -74.0060},
-    "email": "newyork@serverlessdays.io",
-    "website": "http://nyc.serverlessdays.io",
-    "date": "4 & 5 June 2019",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535625308/serverlessdays-nyc-2018.jpg"
-}, {
     "label": "Cardiff",
     "loc": {"lat": 51.4824, "lng": -3.1746},
     "date": "30 January 2019",
@@ -116,6 +109,13 @@
     "date": "11 April 2019",
     "website": "https://zurich.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2019/master/assets/images/zurich_panorama.jpg"
+},{
+    "label": "New York",
+    "loc": {"lat": 40.7128, "lng": -74.0060},
+    "email": "newyork@serverlessdays.io",
+    "website": "http://nyc.serverlessdays.io",
+    "date": "4 June 2019",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535625308/serverlessdays-nyc-2018.jpg"
 }, {
     "label": "Dublin",
     "loc": {"lat": 53.3498, "lng": -6.2603},
