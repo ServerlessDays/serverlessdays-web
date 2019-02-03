@@ -198,4 +198,8 @@
     "label": "Nashville",
     "loc": {"lat": 36.1627, "lng": -86.7816},
     "email": "nashville@serverlessdays.io"
+},{
+    "label": "Sydney",
+    "loc": {"lat": -33.8751, "lng": 151.1880},
+    "email": "sydney@serverlessdays.io"
 }]
