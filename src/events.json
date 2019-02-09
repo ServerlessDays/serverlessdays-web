@@ -1,11 +1,4 @@
 [{
-    "label": "Tel Aviv",
-    "loc": {"lat": 32.071751, "lng": 34.789118},
-    "website": "https://tlv.serverlessdays.io",
-    "date": "4 June 2019",
-    "email": "tlv@serverlessdays.io",
-    "image": "https://res.cloudinary.com/serverlessdaystlv/image/upload/c_scale,h_280,w_280/v1522754132/tlv.jpg"
-}, {
     "label": "Auckland",
     "loc": {"lat": -36.8485, "lng": 174.7633},
     "date": "5 June 2018",
@@ -109,6 +102,13 @@
     "date": "11 April 2019",
     "website": "https://zurich.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2019/master/assets/images/zurich_panorama.jpg"
+},{
+    "label": "Tel Aviv",
+    "loc": {"lat": 32.071751, "lng": 34.789118},
+    "website": "https://tlv.serverlessdays.io",
+    "date": "4 June 2019",
+    "email": "tlv@serverlessdays.io",
+    "image": "https://res.cloudinary.com/serverlessdaystlv/image/upload/c_scale,h_280,w_280/v1522754132/tlv.jpg"
 },{
     "label": "New York",
     "loc": {"lat": 40.7128, "lng": -74.0060},
