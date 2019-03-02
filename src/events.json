@@ -103,6 +103,13 @@
     "website": "https://zurich.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2019/master/assets/images/zurich_panorama.jpg"
 },{
+    "label": "Helsinki",
+    "loc": {"lat": 60.1733, "lng": 24.9410},
+    "email": "helsinki@serverlessdays.io",
+    "date": "25 April 2019",
+    "website": "https://helsinki.serverlessdays.io",
+    "image": "https://helsinki.serverlessdays.io/img/helsinki.jpg"
+},{
     "label": "Tel Aviv",
     "loc": {"lat": 32.071751, "lng": 34.789118},
     "website": "https://tlv.serverlessdays.io",
