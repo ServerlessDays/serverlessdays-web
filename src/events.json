@@ -136,10 +136,6 @@
     "loc": {"lat": 41.0340, "lng": 28.8774},
     "email": "istanbul@serverlessdays.io"
 },{
-    "label": "Helsinki",
-    "loc": {"lat": 60.1691, "lng": 24.9369},
-    "email": "helsinki@serverlessdays.io"
-},{
     "label": "Hong Kong",
     "loc": {"lat": 22.3239, "lng": 114.1722},
     "email": "hongkong@serverlessdays.io"
