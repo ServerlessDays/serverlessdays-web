@@ -29,12 +29,13 @@
     "gulp-uglify": "^3.0.0",
     "pump": "^2.0.0",
     "hoek": "^4.2.1 ",
-    "lodash": "~>4.17.5",
+    "lodash": ">=4.17.11",
     "mime": "~>1.4.1",
     "sshpk": "~>1.13.2",
     "minimatch": ">=3.0.2",
     "randomatic": ">=3.0.0",
-    "cryptiles": ">=4.1.2"
+    "cryptiles": ">=4.1.2",
+    "extend": ">=3.0.2"
   },
   "dependencies": {}
 }
