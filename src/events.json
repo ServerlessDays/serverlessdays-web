@@ -55,7 +55,7 @@
     "date": "15 February 2019",
     "website": "https://hamburg.serverlessdays.io",
     "email": "hamburg@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/img/web%20visual.png"
+    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
 },{
     "label": "Austin",
     "loc": {"lat": 30.256445, "lng": -97.763543},
