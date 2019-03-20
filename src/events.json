@@ -35,6 +35,13 @@
     "date": "4 October 2018",
     "website": "https://seattle.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/mweagle/ServerlessDays-Seattle/master/public/media/seattle-870282_1920.jpg"
+},{
+    "label": "New York",
+    "loc": {"lat": 40.7128, "lng": -74.0060},
+    "email": "newyork@serverlessdays.io",
+    "website": "http://nyc.serverlessdays.io",
+    "date": "30 October 2018",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535625308/serverlessdays-nyc-2018.jpg"
 },
 {
     "label": "Vienna",
@@ -110,13 +117,6 @@
     "email": "tlv@serverlessdays.io",
     "image": "https://tlv.serverlessdays.io/banner_serverlessdays_tlv.jpg"
 },{
-    "label": "New York",
-    "loc": {"lat": 40.7128, "lng": -74.0060},
-    "email": "newyork@serverlessdays.io",
-    "website": "http://nyc.serverlessdays.io",
-    "date": "4 June 2019",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535625308/serverlessdays-nyc-2018.jpg"
-}, {
     "label": "Milan",
     "loc": {"lat": 45.4642, "lng": 9.1900},
     "email": "milan@serverlessdays.io",
