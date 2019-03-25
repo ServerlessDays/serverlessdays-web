@@ -205,4 +205,8 @@
     "label": "Sydney",
     "loc": {"lat": -33.8751, "lng": 151.1880},
     "email": "sydney@serverlessdays.io"
+},{
+    "label": "Melbourne",
+    "loc": {"lat": -37.8033, "lng": 144.9717},
+    "email": "melbourne@serverlessdays.io"
 }]
