@@ -56,13 +56,6 @@
     "website": "https://cardiff.serverlessdays.io",
     "email": "cardiff@serverlessdays.io",
     "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff-event.jpg"
-},{
-    "label": "Jaipur",
-    "loc": {"lat": 26.9126, "lng": 75.7905},
-    "date": "17 February 2019",
-    "email": "jaipur@serverlessdays.io",
-    "website": "https://jaipur.serverlessdays.io",
-    "image":"https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
 }, {
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
@@ -71,16 +64,19 @@
     "email": "hamburg@serverlessdays.io",
     "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
 },{
+    "label": "Jaipur",
+    "loc": {"lat": 26.9126, "lng": 75.7905},
+    "date": "17 February 2019",
+    "email": "jaipur@serverlessdays.io",
+    "website": "https://jaipur.serverlessdays.io",
+    "image":"https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
+},{
     "label": "Austin",
     "loc": {"lat": 30.256445, "lng": -97.763543},
     "email": "austin@serverlessdays.io",
     "website": "https://atx.serverlessdays.io",
     "date": "22 February 2019",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1539625701/atx-capitol.280x280.jpg"
-},{
-    "label": "Los Angeles",
-    "loc": {"lat": 34.0919, "lng": 118.3378},
-    "email": "losangeles@serverlessdays.io"
 },{
     "label": "Boston",
     "loc": {"lat": 42.3601, "lng": -71.0589},
@@ -130,6 +126,10 @@
     "date": "21 June 2019",
     "website": "https://milan.serverlessdays.io",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_auto/v1523028311/milan-grand-visconti-palace.jpg"
+},{
+    "label": "Los Angeles",
+    "loc": {"lat": 34.0919, "lng": 118.3378},
+    "email": "losangeles@serverlessdays.io"
 }, {
     "label": "Dublin",
     "loc": {"lat": 53.3498, "lng": -6.2603},
