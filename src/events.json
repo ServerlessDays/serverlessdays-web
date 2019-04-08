@@ -108,7 +108,7 @@
     "email": "helsinki@serverlessdays.io",
     "date": "25 April 2019",
     "website": "https://helsinki.serverlessdays.io",
-    "image": "https://helsinki.serverlessdays.io/img/helsinki.jpg"
+    "image": "https://helsinki.serverlessdays.io/images/helsinki.jpg"
 },{
     "label": "Tel Aviv",
     "loc": {"lat": 32.071751, "lng": 34.789118},
