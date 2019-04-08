@@ -6,13 +6,6 @@
     "website": "https://serverless.org.nz",
     "image": "https://res.cloudinary.com/dtsyxzxfx/image/upload/x_350,y_50,w_2566,h_2566,c_crop/w_280,h_280,c_scale,f_auto,q_auto/v1523129875/samuel-ferrara-503754-unsplash.jpg"
 }, {
-    "label": "London",
-    "loc": {"lat": 51.5127, "lng": -0.0906},
-    "website": "https://london.serverlessdays.io",
-    "date": "6 July 2018",
-    "email": "london@serverlessdays.io",
-    "image": "https://res.cloudinary.com/senzo/image/upload/c_scale,h_280,w_280/v1496226823/St_John_the_Baptist__Hoxton_-_geograph.org.uk_-_1507811_r3ipbq.jpg"
-}, {
     "label": "Portland",
     "loc": {"lat": 45.524176, "lng": -122.682122},
     "email": "portland@serverlessdays.io",
@@ -126,6 +119,13 @@
     "date": "21 June 2019",
     "website": "https://milan.serverlessdays.io",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_auto/v1523028311/milan-grand-visconti-palace.jpg"
+},{
+    "label": "London",
+    "loc": {"lat": 51.5127, "lng": -0.0906},
+    "website": "https://london.serverlessdays.io",
+    "date": "11 July 2019",
+    "email": "london@serverlessdays.io",
+    "image": "https://london.serverlessdays.io/img/imperial_above.jpg"
 },{
     "label": "Los Angeles",
     "loc": {"lat": 34.0919, "lng": 118.3378},
