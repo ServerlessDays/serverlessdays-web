@@ -127,6 +127,13 @@
     "email": "london@serverlessdays.io",
     "image": "https://london.serverlessdays.io/img/imperial_above.jpg"
 },{
+    "label": "Sydney",
+    "loc": {"lat": -33.8787, "lng": 151.2138},
+    "website": "https://sydney.serverlessdays.io",
+    "date": "27 August 2019",
+    "email": "sydney@serverlessdays.io",
+    "image": "https://sydney.serverlessdays.io/img/SydneyHarbourOperaHouse.jpg"
+},{
     "label": "Los Angeles",
     "loc": {"lat": 34.0919, "lng": 118.3378},
     "email": "losangeles@serverlessdays.io"
@@ -202,10 +209,6 @@
     "label": "Nashville",
     "loc": {"lat": 36.1627, "lng": -86.7816},
     "email": "nashville@serverlessdays.io"
-},{
-    "label": "Sydney",
-    "loc": {"lat": -33.8751, "lng": 151.1880},
-    "email": "sydney@serverlessdays.io"
 },{
     "label": "Melbourne",
     "loc": {"lat": -37.8033, "lng": 144.9717},
