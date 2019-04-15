@@ -216,10 +216,11 @@
     "website": "https://www.serverlessdays.me",
     "date": "29 August 2019",
     "image": "https://www.serverlessdays.me/images/melbourne2.jpg"
-    
 },{
     "label": "Stockholm",
     "loc": {"lat": 59.3293, "lng": 18.0686},
     "email": "stockholm@serverlessdays.io",
-    "website": "https://stockholm.serverlessdays.io"
+    "website": "https://stockholm.serverlessdays.io",
+    "date": "24 October 2019",
+    "image": "https://stockholm.serverlessdays.io/images/Sthlm_2.JPG"
 }]
