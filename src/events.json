@@ -223,4 +223,12 @@
     "website": "https://stockholm.serverlessdays.io",
     "date": "24 October 2019",
     "image": "https://stockholm.serverlessdays.io/images/Sthlm_2.JPG"
+},{
+    "label": "Tokyo",
+    "loc": {"lat": 35.6762, "lng": 139.6503},
+    "email": "japan@serverlessdays.io"
+},{
+    "label": "Fukuoka",
+    "loc": {"lat": 33.5902, "lng": 130.4017},
+    "email": "japan@serverlessdays.io"
 }]
