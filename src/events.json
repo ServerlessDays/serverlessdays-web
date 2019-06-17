@@ -226,9 +226,13 @@
 },{
     "label": "Tokyo",
     "loc": {"lat": 35.6762, "lng": 139.6503},
-    "email": "japan@serverlessdays.io"
+    "email": "japan@serverlessdays.io",
+    "website": "https://tokyo.serverlessdays.io",
+    "date": "22 October 2019",
+    "image": "https://tokyo.serverlessdays.io/images/tokyo_blue.jpg"
 },{
     "label": "Fukuoka",
     "loc": {"lat": 33.5902, "lng": 130.4017},
+    "date": "14 December 2019",
     "email": "japan@serverlessdays.io"
 }]
