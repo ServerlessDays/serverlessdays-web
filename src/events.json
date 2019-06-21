@@ -224,6 +224,13 @@
     "loc": {"lat": 36.1627, "lng": -86.7816},
     "email": "nashville@serverlessdays.io"
 },{
+    "label": "İstanbul",
+    "loc": {"lat": 41.024891, "lng": 28.956651},
+    "date": "03 October 2019",
+    "email": "istanbul@serverlessdays.io",
+    "website": "http://istanbul.serverlessdays.io",
+    "image": "http://istanbul.serverlessdays.io/media/istanbul.jpg"
+},{
     "label": "Tokyo",
     "loc": {"lat": 35.6762, "lng": 139.6503},
     "email": "japan@serverlessdays.io",
