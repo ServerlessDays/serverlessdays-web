@@ -141,6 +141,13 @@
     "date": "29 August 2019",
     "image": "https://www.serverlessdays.me/images/melbourne2.jpg"
 },{
+    "label": "İstanbul",
+    "loc": {"lat": 41.024891, "lng": 28.956651},
+    "date": "03 October 2019",
+    "email": "istanbul@serverlessdays.io",
+    "website": "http://istanbul.serverlessdays.io",
+    "image": "http://istanbul.serverlessdays.io/media/istanbul.jpg"
+},{
     "label": "Stockholm",
     "loc": {"lat": 59.3293, "lng": 18.0686},
     "email": "stockholm@serverlessdays.io",
@@ -159,10 +166,6 @@
     "label": "San Francisco",
     "loc": {"lat": 37.7749, "lng": -122.4194},
     "email": "sanfrancisco@serverlessdays.io"
-},{
-    "label": "Istanbul",
-    "loc": {"lat": 41.0340, "lng": 28.8774},
-    "email": "istanbul@serverlessdays.io"
 },{
     "label": "Hong Kong",
     "loc": {"lat": 22.3239, "lng": 114.1722},
@@ -223,13 +226,6 @@
     "label": "Nashville",
     "loc": {"lat": 36.1627, "lng": -86.7816},
     "email": "nashville@serverlessdays.io"
-},{
-    "label": "İstanbul",
-    "loc": {"lat": 41.024891, "lng": 28.956651},
-    "date": "03 October 2019",
-    "email": "istanbul@serverlessdays.io",
-    "website": "http://istanbul.serverlessdays.io",
-    "image": "http://istanbul.serverlessdays.io/media/istanbul.jpg"
 },{
     "label": "Tokyo",
     "loc": {"lat": 35.6762, "lng": 139.6503},
