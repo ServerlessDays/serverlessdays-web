@@ -148,12 +148,24 @@
     "website": "http://istanbul.serverlessdays.io",
     "image": "http://istanbul.serverlessdays.io/media/istanbul.jpg"
 },{
+    "label": "Tokyo",
+    "loc": {"lat": 35.6762, "lng": 139.6503},
+    "email": "japan@serverlessdays.io",
+    "website": "https://tokyo.serverlessdays.io",
+    "date": "22 October 2019",
+    "image": "https://tokyo.serverlessdays.io/images/tokyo_blue.jpg"
+},{
     "label": "Stockholm",
     "loc": {"lat": 59.3293, "lng": 18.0686},
     "email": "stockholm@serverlessdays.io",
     "website": "https://stockholm.serverlessdays.io",
     "date": "24 October 2019",
     "image": "https://stockholm.serverlessdays.io/images/Sthlm_2.JPG"
+},{
+    "label": "Fukuoka",
+    "loc": {"lat": 33.5902, "lng": 130.4017},
+    "date": "14 December 2019",
+    "email": "japan@serverlessdays.io"
 },{
     "label": "Los Angeles",
     "loc": {"lat": 34.0919, "lng": 118.3378},
@@ -226,16 +238,4 @@
     "label": "Nashville",
     "loc": {"lat": 36.1627, "lng": -86.7816},
     "email": "nashville@serverlessdays.io"
-},{
-    "label": "Tokyo",
-    "loc": {"lat": 35.6762, "lng": 139.6503},
-    "email": "japan@serverlessdays.io",
-    "website": "https://tokyo.serverlessdays.io",
-    "date": "22 October 2019",
-    "image": "https://tokyo.serverlessdays.io/images/tokyo_blue.jpg"
-},{
-    "label": "Fukuoka",
-    "loc": {"lat": 33.5902, "lng": 130.4017},
-    "date": "14 December 2019",
-    "email": "japan@serverlessdays.io"
 }]
