@@ -141,6 +141,13 @@
     "date": "29 August 2019",
     "image": "https://www.serverlessdays.me/images/melbourne2.jpg"
 },{
+    "label": "Belgrade",
+    "loc": {"lat": 44.81892, "lng": 20.45998},
+    "email": "belgrade@serverlessdays.io",
+    "website": "https://serverlessbelgrade.com",
+    "date": "13 September 2019",
+    "image": "https://serverlessbelgrade.com/images/belgrade.jpg"
+},{
     "label": "İstanbul",
     "loc": {"lat": 41.024891, "lng": 28.956651},
     "date": "03 October 2019",
