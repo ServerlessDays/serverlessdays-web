@@ -132,7 +132,7 @@
     "website": "https://sydney.serverlessdays.io",
     "date": "27 August 2019",
     "email": "sydney@serverlessdays.io",
-    "image": "https://sydney.serverlessdays.io/img/SydneyHarbourOperaHouse.jpg"
+    "image": "https://res.cloudinary.com/du73ags2q/image/upload/v1561613359/SydneyHarbourOperaHouse_jvfdhr.jpg"
 },{
     "label": "Melbourne",
     "loc": {"lat": -37.8033, "lng": 144.9717},
