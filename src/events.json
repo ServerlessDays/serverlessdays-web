@@ -247,5 +247,5 @@
     "email": "nashville@serverlessdays.io",
     "website": "https://serverlessnashville.io",
     "date": "27 February 2020",
-    "Image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
+    "image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
 }]
