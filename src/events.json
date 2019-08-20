@@ -245,4 +245,7 @@
     "label": "Nashville",
     "loc": {"lat": 36.1627, "lng": -86.7816},
     "email": "nashville@serverlessdays.io"
+    "website": "https://serverlessnashville.io",
+    "date": "27 February 2020",
+    "Image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
 }]
