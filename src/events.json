@@ -136,7 +136,7 @@
 },{
     "label": "Melbourne",
     "loc": {"lat": -37.8033, "lng": 144.9717},
-    "email": "melbourne@serverlessdays.io", 
+    "email": "melbourne@serverlessdays.io",
     "website": "https://www.serverlessdays.me",
     "date": "29 August 2019",
     "image": "https://www.serverlessdays.me/images/melbourne2.jpg"
@@ -248,4 +248,10 @@
     "website": "https://serverlessnashville.io",
     "date": "27 February 2020",
     "image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
+},{
+    "label": "Rome",
+    "loc": {"lat": 41.9028, "lng": 12.4964},
+    "email": "rome@serverlessdays.io",
+    "website": "https://rome.serverlessdays.io",
+    "date": "February 2020"
 }]
