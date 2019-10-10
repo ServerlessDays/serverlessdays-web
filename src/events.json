@@ -52,7 +52,7 @@
 }, {
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
-    "date": "15 February 2019",
+    "date": "27 March 2020",
     "website": "https://hamburg.serverlessdays.io",
     "email": "hamburg@serverlessdays.io",
     "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
