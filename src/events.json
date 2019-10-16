@@ -49,13 +49,6 @@
     "website": "https://cardiff.serverlessdays.io",
     "email": "cardiff@serverlessdays.io",
     "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff-event.jpg"
-}, {
-    "label": "Hamburg",
-    "loc": {"lat": 53.5511, "lng": 9.9937},
-    "date": "15 February 2019",
-    "website": "https://hamburg.serverlessdays.io",
-    "email": "hamburg@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
 },{
     "label": "Jaipur",
     "loc": {"lat": 26.9126, "lng": 75.7905},
@@ -248,4 +241,11 @@
     "website": "https://serverlessnashville.io",
     "date": "27 February 2020",
     "image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
+},{
+    "label": "Hamburg",
+    "loc": {"lat": 53.5511, "lng": 9.9937},
+    "date": "27 March 2020",
+    "website": "https://hamburg.serverlessdays.io",
+    "email": "hamburg@serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
 }]
