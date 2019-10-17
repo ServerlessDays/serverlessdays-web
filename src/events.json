@@ -165,7 +165,9 @@
     "label": "Fukuoka",
     "loc": {"lat": 33.5902, "lng": 130.4017},
     "date": "14 December 2019",
-    "email": "japan@serverlessdays.io"
+    "email": "japan@serverlessdays.io",
+    "website": "https://fukuoka.serverlessdays.io",
+    "image": "https://fukuoka.serverlessdays.io/images/fukuoka_blue.jpg"
 },{
     "label": "Los Angeles",
     "loc": {"lat": 34.0919, "lng": 118.3378},
