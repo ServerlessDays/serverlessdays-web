@@ -153,7 +153,7 @@
     "email": "japan@serverlessdays.io",
     "website": "https://tokyo.serverlessdays.io",
     "date": "22 October 2019",
-    "image": "https://tokyo.serverlessdays.io/images/tokyo_blue.jpg"
+    "image": "https://tokyo.serverlessdays.io/assets/images/tokyo_blue.jpg"
 },{
     "label": "Stockholm",
     "loc": {"lat": 59.3293, "lng": 18.0686},
@@ -165,7 +165,9 @@
     "label": "Fukuoka",
     "loc": {"lat": 33.5902, "lng": 130.4017},
     "date": "14 December 2019",
-    "email": "japan@serverlessdays.io"
+    "email": "japan@serverlessdays.io",
+    "website": "https://fukuoka.serverlessdays.io",
+    "image": "https://fukuoka.serverlessdays.io/images/fukuoka_blue.jpg"
 },{
     "label": "Los Angeles",
     "loc": {"lat": 34.0919, "lng": 118.3378},
