@@ -42,13 +42,6 @@
     "email": "vienna@serverlessdays.io",
     "website": "https://vienna.serverlessdays.io",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1523812133/vienna-2018.jpg"
-}, {
-    "label": "Cardiff",
-    "loc": {"lat": 51.4824, "lng": -3.1746},
-    "date": "30 January 2019",
-    "website": "https://cardiff.serverlessdays.io",
-    "email": "cardiff@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff-event.jpg"
 },{
     "label": "Jaipur",
     "loc": {"lat": 26.9126, "lng": 75.7905},
