@@ -42,20 +42,6 @@
     "email": "vienna@serverlessdays.io",
     "website": "https://vienna.serverlessdays.io",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1523812133/vienna-2018.jpg"
-}, {
-    "label": "Cardiff",
-    "loc": {"lat": 51.4824, "lng": -3.1746},
-    "date": "30 January 2019",
-    "website": "https://cardiff.serverlessdays.io",
-    "email": "cardiff@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff-event.jpg"
-}, {
-    "label": "Hamburg",
-    "loc": {"lat": 53.5511, "lng": 9.9937},
-    "date": "15 February 2019",
-    "website": "https://hamburg.serverlessdays.io",
-    "email": "hamburg@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
 },{
     "label": "Jaipur",
     "loc": {"lat": 26.9126, "lng": 75.7905},
@@ -160,7 +146,7 @@
     "email": "japan@serverlessdays.io",
     "website": "https://tokyo.serverlessdays.io",
     "date": "22 October 2019",
-    "image": "https://tokyo.serverlessdays.io/images/tokyo_blue.jpg"
+    "image": "https://tokyo.serverlessdays.io/assets/images/tokyo_blue.jpg"
 },{
     "label": "Stockholm",
     "loc": {"lat": 59.3293, "lng": 18.0686},
@@ -172,7 +158,16 @@
     "label": "Fukuoka",
     "loc": {"lat": 33.5902, "lng": 130.4017},
     "date": "14 December 2019",
-    "email": "japan@serverlessdays.io"
+    "email": "japan@serverlessdays.io",
+    "website": "https://fukuoka.serverlessdays.io",
+    "image": "https://fukuoka.serverlessdays.io/images/fukuoka_blue.jpg"
+},{
+    "label": "Cardiff",
+    "loc": {"lat": 51.4824, "lng": -3.1746},
+    "date": "13 February 2020",
+    "website": "https://cardiff.serverlessdays.io",
+    "email": "cardiff@serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff2020-event.jpg"
 },{
     "label": "Los Angeles",
     "loc": {"lat": 34.0919, "lng": 118.3378},
@@ -255,4 +250,11 @@
     "website": "https://rome.serverlessdays.io",
     "date": "21 February 2020",
     "image": "http://rome.serverlessdays.io/assets/images/Bridge_Vittorio_Emanuele_II_at_sunset_1024.jpg"
+},{
+    "label": "Hamburg",
+    "loc": {"lat": 53.5511, "lng": 9.9937},
+    "date": "27 March 2020",
+    "website": "https://hamburg.serverlessdays.io",
+    "email": "hamburg@serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
 }]
