@@ -78,13 +78,6 @@
     "date": "9 April 2019",
     "image": "https://atlanta.serverlessdays.io/img/atlanta.jpg"
 },{
-    "label": "Zürich",
-    "loc": {"lat": 47.3766, "lng": 8.5332},
-    "email": "zurich@serverlessdays.io",
-    "date": "11 April 2019",
-    "website": "https://zurich.serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2019/master/assets/images/zurich_panorama.jpg"
-},{
     "label": "Helsinki",
     "loc": {"lat": 60.1733, "lng": 24.9410},
     "email": "helsinki@serverlessdays.io",
