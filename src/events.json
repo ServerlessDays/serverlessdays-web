@@ -147,13 +147,6 @@
     "website": "https://fukuoka.serverlessdays.io",
     "image": "https://fukuoka.serverlessdays.io/images/fukuoka_blue.jpg"
 },{
-    "label": "Cardiff",
-    "loc": {"lat": 51.4824, "lng": -3.1746},
-    "date": "13 February 2020",
-    "website": "https://cardiff.serverlessdays.io",
-    "email": "cardiff@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff2020-event.jpg"
-},{
     "label": "Los Angeles",
     "loc": {"lat": 34.0919, "lng": 118.3378},
     "email": "losangeles@serverlessdays.io"
@@ -221,6 +214,20 @@
     "label": "Madrid",
     "loc": {"lat": 40.4156, "lng": -3.7063},
     "email": "madrid@serverlessdays.io"
+},{
+    "label": "Belfast",
+    "loc": {"lat": 54.6078, "lng": -5.9264},
+    "date": "24 January 2020",
+    "website": "https://belfast.serverlessdays.io",
+    "email": "belfast@serverlessdays.io",
+    "image": "https://dz0p6k26nsc2t.cloudfront.net/img/harland_and_wolff.jpg"
+},{
+    "label": "Cardiff",
+    "loc": {"lat": 51.4824, "lng": -3.1746},
+    "date": "13 February 2020",
+    "website": "https://cardiff.serverlessdays.io",
+    "email": "cardiff@serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff2020-event.jpg"
 },{
     "label": "Rome",
     "loc": {"lat": 41.9028, "lng": 12.4964},
