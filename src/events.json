@@ -35,8 +35,7 @@
     "website": "http://nyc.serverlessdays.io",
     "date": "30 October 2018",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535625308/serverlessdays-nyc-2018.jpg"
-},
-{
+},{
     "label": "Vienna",
     "loc": {"lat": 48.2082, "lng": 16.3738},
     "email": "vienna@serverlessdays.io",
@@ -77,13 +76,6 @@
     "website": "https://atlanta.serverlessdays.io",
     "date": "9 April 2019",
     "image": "https://atlanta.serverlessdays.io/img/atlanta.jpg"
-},{
-    "label": "Helsinki",
-    "loc": {"lat": 60.1733, "lng": 24.9410},
-    "email": "helsinki@serverlessdays.io",
-    "date": "25 April 2019",
-    "website": "https://helsinki.serverlessdays.io",
-    "image": "https://helsinki.serverlessdays.io/images/helsinki.jpg"
 },{
     "label": "Tel Aviv",
     "loc": {"lat": 32.071751, "lng": 34.789118},
@@ -250,6 +242,13 @@
     "date": "19 March 2020",
     "website": "https://zurich.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2020/master/assets/images/zurich_panorama.jpg"
+},{
+    "label": "Helsinki",
+    "loc": {"lat": 60.1733, "lng": 24.9410},
+    "email": "helsinki@serverlessdays.io",
+    "date": "24 March 2020",
+    "website": "https://helsinki.serverlessdays.io",
+    "image": "https://helsinki.serverlessdays.io/images/helsinki.jpg"
 },{
     "label": "Hamburg",
     "loc": {"lat": 53.5511, "lng": 9.9937},
