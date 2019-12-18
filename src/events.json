@@ -264,6 +264,13 @@
     "email": "hamburg@serverlessdays.io",
     "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
 },{
+    "label": "Boston",
+    "loc": {"lat": 42.3601, "lng": -71.0589},
+    "email": "boston@serverlessdays.io",
+    "date": "6 April 2020",
+    "website": "https://boston.serverlessdays.io",
+    "image": "https://boston.serverlessdays.io/sd-bos-tile.png"
+},{
     "label": "Paris",
     "loc": {"lat": 48.864716, "lng": 2.349014},
     "date": "24 April 2020",
