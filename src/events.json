@@ -264,6 +264,13 @@
     "website": "https://boston.serverlessdays.io",
     "image": "https://boston.serverlessdays.io/sd-bos-tile.png"
 },{
+    "label": "Auckland",
+    "loc": {"lat": -36.8485, "lng": 174.7633},
+    "email": "auckland@serverlessdays.io",
+    "date": "20 April 2020",
+    "website": "https://serverless.org.nz/",
+    "image": "https://serverless.org.nz//images/dan-freeman-hIKVSVKH7No-unsplash.jpg"
+},{
     "label": "Paris",
     "loc": {"lat": 48.864716, "lng": 2.349014},
     "date": "24 April 2020",
