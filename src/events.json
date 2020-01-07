@@ -23,7 +23,10 @@
 {
     "label": "Amsterdam",
     "loc": {"lat": 52.3702, "lng": 4.8952},
-    "email": "amsterdam@serverlessdays.io"
+    "email": "amsterdam@serverlessdays.io",
+    "website": "https://serverlessdays.nl",
+    "date": "8 May 2020",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,q_auto:best,w_1920/v1527152567/amsterdam-2018.jpg"
 },
   {
     "label": "Portland",
