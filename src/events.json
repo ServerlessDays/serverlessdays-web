@@ -63,13 +63,6 @@
     "email": "tlv@serverlessdays.io",
     "image": "https://tlv.serverlessdays.io/banner_serverlessdays_tlv.jpg"
 },{
-    "label": "Milan",
-    "loc": {"lat": 45.4642, "lng": 9.1900},
-    "email": "milan@serverlessdays.io",
-    "date": "21 June 2019",
-    "website": "https://milan.serverlessdays.io",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_auto/v1523028311/milan-grand-visconti-palace.jpg"
-},{
     "label": "London",
     "loc": {"lat": 51.5127, "lng": -0.0906},
     "website": "https://london.serverlessdays.io",
@@ -270,4 +263,11 @@
     "website": "https://serverlessdays.nl",
     "date": "8 May 2020",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
+},{
+    "label": "Milan",
+    "loc": {"lat": 45.4642, "lng": 9.1900},
+    "email": "milan@serverlessdays.io",
+    "date": "5 June 2020",
+    "website": "https://milan.serverlessdays.io",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_xy_center,x_1100/v1578495205/milan-skyline.jpg"
 }]
