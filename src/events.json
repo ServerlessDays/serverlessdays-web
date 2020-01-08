@@ -255,7 +255,7 @@
     "email": "auckland@serverlessdays.io",
     "date": "20 April 2020",
     "website": "https://serverless.org.nz/",
-    "image": "https://serverless.org.nz//images/dan-freeman-hIKVSVKH7No-unsplash.jpg"
+    "image": "https://res.cloudinary.com/dtsyxzxfx/image/upload/f_auto,q_auto/v1578469767/2020/dan-freeman-hIKVSVKH7No-unsplash_mini.png"
 },{
     "label": "Paris",
     "loc": {"lat": 48.864716, "lng": 2.349014},
