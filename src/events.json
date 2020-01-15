@@ -249,7 +249,7 @@
     "email": "vienna@serverlessdays.io",
     "website": "https://vienna.serverlessdays.io",
     "date": "23 April 2020",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1523812133/vienna-2018.jpg"
+    "image": "https://vienna.serverlessdays.io/images/vienna-4403839_1920_with_caption.png"
 },{
     "label": "Paris",
     "loc": {"lat": 48.864716, "lng": 2.349014},
