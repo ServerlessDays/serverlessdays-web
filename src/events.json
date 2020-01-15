@@ -33,6 +33,7 @@
     "loc": {"lat": 48.2082, "lng": 16.3738},
     "email": "vienna@serverlessdays.io",
     "website": "https://vienna.serverlessdays.io",
+    "date": "23 April 2020",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1523812133/vienna-2018.jpg"
 },{
     "label": "Jaipur",
