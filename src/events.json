@@ -271,4 +271,11 @@
     "date": "5 June 2020",
     "website": "https://milan.serverlessdays.io",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_xy_center,x_1800/v1578498701/Milano.jpg"
+},{
+    "label": "Ahmedabad",
+    "loc": {"lat": 23.0202434, "lng": 72.5797426},
+    "email": "ahmedabad@serverlessdays.io",
+    "date": "20 June 2020",
+    "website": "https://ahmedabad.serverlessdays.io",
+    "image": "http://ahmedabad.serverlessdays.io/images/Ahemdabad.jpg"
 }]
