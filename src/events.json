@@ -218,4 +218,12 @@
     "loc": {"lat": 59.3293, "lng": 18.0686},
     "email": "stockholm@serverlessdays.io",
     "website": "https://stockholm.serverlessdays.io"
-}]
+},{
+    "label": "Sydney",
+    "loc": {"lat": -33.8717108, "lng": 151.2063606},
+    "email": "sydney@serverlessdays.io",
+    "date": "18 August 2020",
+    "website": "https://sydney.serverlessdays.io",
+    "image": "http://sydney.serverlessdays.io/images/opera-house-at-night.jpg"
+}
+]
