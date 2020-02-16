@@ -143,7 +143,10 @@
 },{
     "label": "São Paulo",
     "loc": {"lat": -23.5689, "lng": -46.6513},
-    "email": "saopaulo@serverlessdays.io"
+    "email": "saopaulo@serverlessdays.io",
+    "date": "21 March 2020",
+    "website": "https://saopaulo.serverlessdays.io",
+    "image": "https://saopaulo.serverlessdays.io/images/sp.jpg"
 },{
     "label": "Chicago",
     "loc": {"lat": 41.8766, "lng": -87.6317},
