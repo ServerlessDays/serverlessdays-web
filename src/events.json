@@ -216,11 +216,6 @@
     "website": "https://zurich.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2020/master/assets/images/zurich_panorama.jpg"
 },{
-    "label": "Stockholm",
-    "loc": {"lat": 59.3293, "lng": 18.0686},
-    "email": "stockholm@serverlessdays.io",
-    "website": "https://stockholm.serverlessdays.io"
-},{
     "label": "Helsinki",
     "loc": {"lat": 60.1733, "lng": 24.9410},
     "email": "helsinki@serverlessdays.io",
