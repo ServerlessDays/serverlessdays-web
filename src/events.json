@@ -278,4 +278,11 @@
     "date": "20 June 2020",
     "website": "https://ahmedabad.serverlessdays.io",
     "image": "http://ahmedabad.serverlessdays.io/images/Ahemdabad.jpg"
+},{
+    "label": "Sydney",
+    "loc": {"lat": -33.8779331, "lng": 151.2082085},
+    "email": "sydney@serverlessdays.io",
+    "date": "18 August 2020",
+    "website": "https://sydney.serverlessdays.io",
+    "image": "https://sydney.serverlessdays.io/img/opera-house-at-night.jpg"
 }]
