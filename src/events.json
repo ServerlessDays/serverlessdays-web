@@ -228,7 +228,7 @@
     "date": "27 March 2020",
     "website": "https://hamburg.serverlessdays.io",
     "email": "hamburg@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
+    "image": "https://superluminar.io/images/blog/serverlessdays/web%20visual.png"
 },{
     "label": "Boston",
     "loc": {"lat": 42.3601, "lng": -71.0589},
