@@ -223,13 +223,6 @@
     "website": "https://helsinki.serverlessdays.io",
     "image": "https://helsinki.serverlessdays.io/images/helsinki.jpg"
 },{
-    "label": "Hamburg",
-    "loc": {"lat": 53.5511, "lng": 9.9937},
-    "date": "2 October 2020",
-    "website": "https://hamburg.serverlessdays.io",
-    "email": "hamburg@serverlessdays.io",
-    "image": "https://superluminar.io/images/blog/serverlessdays/web%20visual.png"
-},{
     "label": "Boston",
     "loc": {"lat": 42.3601, "lng": -71.0589},
     "email": "boston@serverlessdays.io",
@@ -285,4 +278,11 @@
     "date": "18 August 2020",
     "website": "https://sydney.serverlessdays.io",
     "image": "https://sydney.serverlessdays.io/img/opera-house-at-night.jpg"
+},{
+    "label": "Hamburg",
+    "loc": {"lat": 53.5511, "lng": 9.9937},
+    "date": "2 October 2020",
+    "website": "https://hamburg.serverlessdays.io",
+    "email": "hamburg@serverlessdays.io",
+    "image": "https://superluminar.io/images/blog/serverlessdays/web%20visual.png"
 }]
