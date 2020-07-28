@@ -325,6 +325,14 @@
     "image": "https://sydney.serverlessdays.io/img/opera-house-at-night.jpg"
   },
   {
+    "label": "Warsaw",
+    "loc": { "lat": 52.2315, "lng": 21.0062 },
+    "date": "3 September 2020",
+    "website": "https://warsaw.serverlessdays.io",
+    "email": "warsaw@serverlessdays.io",
+    "image": "https://warsaw.serverlessdays.io/img/waw4.png"
+  },
+  {
     "label": "Zürich",
     "loc": { "lat": 47.3766, "lng": 8.5332 },
     "email": "zurich@serverlessdays.io",
