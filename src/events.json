@@ -327,7 +327,7 @@
   {
     "label": "Warsaw",
     "loc": { "lat": 52.2315, "lng": 21.0062 },
-    "date": "3 September, 2020",
+    "date": "3 September 2020",
     "website": "https://warsaw.serverlessdays.io",
     "email": "warsaw@serverlessdays.io",
     "image": "https://warsaw.serverlessdays.io/img/waw4.png"
