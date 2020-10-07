@@ -112,14 +112,6 @@
     "image": "https://tokyo.serverlessdays.io/assets/images/tokyo_blue.jpg"
   },
   {
-    "label": "Stockholm",
-    "loc": { "lat": 59.3293, "lng": 18.0686 },
-    "email": "stockholm@serverlessdays.io",
-    "website": "https://stockholm.serverlessdays.io",
-    "date": "24 October 2019",
-    "image": "https://stockholm.serverlessdays.io/images/Sthlm_2.JPG"
-  },
-  {
     "label": "Fukuoka",
     "loc": { "lat": 33.5902, "lng": 130.4017 },
     "date": "14 December 2019",
@@ -309,14 +301,6 @@
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1591218332/teams/slsdays_china.png"
   },
   {
-    "label": "Ahmedabad",
-    "loc": { "lat": 23.0202434, "lng": 72.5797426 },
-    "email": "ahmedabad@serverlessdays.io",
-    "date": "5 December 2020",
-    "website": "https://ahmedabad.serverlessdays.io",
-    "image": "https://ahmedabad.serverlessdays.io/images/Ahemdabad.jpg"
-  },
-  {
     "label": "Sydney",
     "loc": { "lat": -33.8779331, "lng": 151.2082085 },
     "email": "sydney@serverlessdays.io",
@@ -347,5 +331,21 @@
     "website": "https://hamburg.serverlessdays.io",
     "email": "hamburg@serverlessdays.io",
     "image": "https://superluminar.io/images/blog/serverlessdays/web%20visual.png"
+  },
+  {
+    "label": "Stockholm",
+    "loc": { "lat": 59.3293, "lng": 18.0686 },
+    "email": "stockholm@serverlessdays.io",
+    "website": "https://stockholm.serverlessdays.io",
+    "date": "25 November 2020",
+    "image": "https://stockholm.serverlessdays.io/img/stockholm.jpg"
+  },
+  {
+    "label": "Ahmedabad",
+    "loc": { "lat": 23.0202434, "lng": 72.5797426 },
+    "email": "ahmedabad@serverlessdays.io",
+    "date": "5 December 2020",
+    "website": "https://ahmedabad.serverlessdays.io",
+    "image": "https://ahmedabad.serverlessdays.io/images/Ahemdabad.jpg"
   }
 ]
