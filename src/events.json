@@ -121,7 +121,7 @@
   },
   {
     "label": "Los Angeles",
-    "loc": { "lat": 34.0919, "lng": 118.3378 },
+    "loc": { "lat": 34.0919, "lng": -118.3378 },
     "email": "losangeles@serverlessdays.io"
   },
   {
