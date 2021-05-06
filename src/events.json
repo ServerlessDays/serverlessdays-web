@@ -348,6 +348,14 @@
     "image": "https://ahmedabad.serverlessdays.io/images/Ahemdabad.jpg"
   },
   {
+    "label": "Nashville",
+    "loc": { "lat": 36.1627, "lng": -86.7816 },
+    "email": "nashville@serverlessdays.io",
+    "website": "https://serverlessnashville.io",
+    "date": "14 September 2021",
+    "image": "https://serverlessnashville.s3.amazonaws.com/nashville2.jpg"
+  },
+  {
     "label": "Hamburg",
     "loc": { "lat": 53.5511, "lng": 9.9937 },
     "date": "17 September 2021",
