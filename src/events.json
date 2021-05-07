@@ -229,14 +229,6 @@
     "image": "http://rome.serverlessdays.io/assets/images/Bridge_Vittorio_Emanuele_II_at_sunset_1024.jpg"
   },
   {
-    "label": "Nashville",
-    "loc": { "lat": 36.1627, "lng": -86.7816 },
-    "email": "nashville@serverlessdays.io",
-    "website": "https://serverlessnashville.io",
-    "date": "27 February 2020",
-    "image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
-  },
-  {
     "label": "Helsinki",
     "loc": { "lat": 60.1733, "lng": 24.941 },
     "email": "helsinki@serverlessdays.io",
