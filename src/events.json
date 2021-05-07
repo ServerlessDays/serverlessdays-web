@@ -354,5 +354,13 @@
     "website": "https://hamburg.serverlessdays.io",
     "email": "hamburg@serverlessdays.io",
     "image": "https://superluminar.io/images/blog/serverlessdays/web%20visual.png"
+  },
+  {
+    "label": "Paris",
+    "loc": { "lat": 48.864716, "lng": 2.349014 },
+    "date": "21 September 2021",
+    "website": "https://paris.serverlessdays.io",
+    "email": "paris@serverlessdays.io",
+    "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
   }
 ]
