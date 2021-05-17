@@ -332,6 +332,14 @@
     "image": "https://ahmedabad.serverlessdays.io/images/Ahemdabad.jpg"
   },
   {
+    "label": "Student Edition",
+    "loc": { "lat": 37.7749, "lng": 122.4194 },
+    "email": "student@serverlessdays.io",
+    "website": "https://student.serverlessdays.io",
+    "date": "15 August 2021",
+    "image": "http://student.serverlessdays.io/camp.png"
+  },
+  {
     "label": "Nashville",
     "loc": { "lat": 36.1627, "lng": -86.7816 },
     "email": "nashville@serverlessdays.io",
