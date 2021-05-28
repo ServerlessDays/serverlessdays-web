@@ -362,5 +362,13 @@
     "website": "https://paris.serverlessdays.io",
     "email": "paris@serverlessdays.io",
     "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
-  }
+  },
+  {
+    "label": "Nashville",
+    "loc": { "lat": 36.1627, "lng": -86.7816 },
+    "email": "nashville@serverlessdays.io",
+    "website": "https://serverlessnashville.io",
+    "date": "24 February 2022",
+    "image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
+  },
 ]
