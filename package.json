@@ -45,7 +45,7 @@
     "stringstream": "^1.0.0",
     "http-proxy": ">=1.18.1",
     "object-path": ">=0.11.5",
-    "axios": ">=0.21.1",
+    "axios": ">=0.21.2",
     "socket.io": ">=2.4.0",
     "yargs-parser": ">=5.0.0-security.0"
   },
