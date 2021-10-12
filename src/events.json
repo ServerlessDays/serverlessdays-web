@@ -269,14 +269,6 @@
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
   },
   {
-    "label": "Milan",
-    "loc": { "lat": 45.4642, "lng": 9.19 },
-    "email": "milan@serverlessdays.io",
-    "date": "4 June 2020",
-    "website": "https://milan.serverlessdays.io",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_xy_center,x_1800/v1578498701/Milano.jpg"
-  },
-  {
     "label": "China",
     "loc": { "lat": 22.54554, "lng": 114.0683 },
     "date": "19 June 2020",
@@ -363,6 +355,14 @@
     "email": "paris@serverlessdays.io",
     "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
   },
+  {
+    "label": "Milan",
+    "loc": { "lat": 45.4642, "lng": 9.19 },
+    "email": "milan@serverlessdays.io",
+    "date": "23 October 2021",
+    "website": "https://milan.serverlessdays.io",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_xy_center,x_1800/v1578498701/Milano.jpg"
+  },  
   {
     "label": "Nashville",
     "loc": { "lat": 36.1627, "lng": -86.7816 },
