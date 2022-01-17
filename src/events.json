@@ -348,14 +348,6 @@
     "image": "https://superluminar.io/images/blog/serverlessdays/web%20visual.png"
   },
   {
-    "label": "Paris",
-    "loc": { "lat": 48.864716, "lng": 2.349014 },
-    "date": "28 September 2021",
-    "website": "https://paris.serverlessdays.io",
-    "email": "paris@serverlessdays.io",
-    "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
-  },
-  {
     "label": "Milan",
     "loc": { "lat": 45.4642, "lng": 9.19 },
     "email": "milan@serverlessdays.io",
@@ -370,5 +362,13 @@
     "website": "https://serverlessnashville.io",
     "date": "12 May 2022",
     "image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
+  },
+  {
+    "label": "Paris",
+    "loc": { "lat": 48.864716, "lng": 2.349014 },
+    "date": "23 June 2022",
+    "website": "https://paris.serverlessdays.io",
+    "email": "paris@serverlessdays.io",
+    "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
   }
 ]
