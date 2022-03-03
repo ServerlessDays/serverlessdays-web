@@ -24,14 +24,6 @@
     "image": "https://raw.githubusercontent.com/mweagle/ServerlessDays-Seattle/master/public/media/seattle-870282_1920.jpg"
   },
   {
-    "label": "New York",
-    "loc": { "lat": 40.7128, "lng": -74.006 },
-    "email": "newyork@serverlessdays.io",
-    "website": "http://nyc.serverlessdays.io",
-    "date": "30 October 2018",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535625308/serverlessdays-nyc-2018.jpg"
-  },
-  {
     "label": "Jaipur",
     "loc": { "lat": 26.9126, "lng": 75.7905 },
     "date": "17 February 2019",
@@ -370,5 +362,13 @@
     "website": "https://paris.serverlessdays.io",
     "email": "paris@serverlessdays.io",
     "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
+  },
+  {
+    "label": "New York",
+    "loc": { "lat": 40.7128, "lng": -74.006 },
+    "email": "newyork@serverlessdays.io",
+    "website": "http://newyork.serverlessdays.io",
+    "date": "24 June 2022",
+    "image": "https://newyork.serverlessdays.io/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1544111795-fe8b9def73f6%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D977%26q%3D30&w=3840&q=75"
   }
 ]
