@@ -316,14 +316,6 @@
     "image": "https://ahmedabad.serverlessdays.io/images/Ahemdabad.jpg"
   },
   {
-    "label": "Student Edition",
-    "loc": { "lat": 37.7749, "lng": 122.4194 },
-    "email": "student@serverlessdays.io",
-    "website": "https://student.serverlessdays.io",
-    "date": "15 August 2021",
-    "image": "http://student.serverlessdays.io/camp.png"
-  },
-  {
     "label": "Nashville",
     "loc": { "lat": 36.1627, "lng": -86.7816 },
     "email": "nashville@serverlessdays.io",
@@ -370,5 +362,13 @@
     "website": "http://newyork.serverlessdays.io",
     "date": "24 June 2022",
     "image": "https://newyork.serverlessdays.io/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1544111795-fe8b9def73f6%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D977%26q%3D30&w=3840&q=75"
+  },
+  {
+    "label": "Student Edition",
+    "loc": { "lat": 37.7749, "lng": 122.4194 },
+    "email": "student@serverlessdays.io",
+    "website": "https://student.serverlessdays.io",
+    "date": "15 August 2022",
+    "image": "http://student.serverlessdays.io/camp.png"
   }
 ]
