@@ -348,14 +348,6 @@
     "image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
   },
   {
-    "label": "Paris",
-    "loc": { "lat": 48.864716, "lng": 2.349014 },
-    "date": "22 June 2022",
-    "website": "https://paris.serverlessdays.io",
-    "email": "paris@serverlessdays.io",
-    "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
-  },
-  {
     "label": "New York",
     "loc": { "lat": 40.7128, "lng": -74.006 },
     "email": "newyork@serverlessdays.io",
@@ -370,5 +362,13 @@
     "website": "https://student.serverlessdays.io",
     "date": "21 August 2022",
     "image": "http://student.serverlessdays.io/camp.png"
+  },
+  {
+    "label": "Paris",
+    "loc": { "lat": 48.864716, "lng": 2.349014 },
+    "date": "7 June 2023",
+    "website": "https://paris.serverlessdays.io",
+    "email": "paris@serverlessdays.io",
+    "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
   }
 ]
