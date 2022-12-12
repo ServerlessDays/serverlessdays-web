@@ -364,7 +364,7 @@
     "image": "http://student.serverlessdays.io/camp.png"
   },
   {
-    "label": "Melbourne",
+    "label": "ANZ",
     "loc": { "lat": -37.8179789, "lng": 144.9649377 },
     "date": "10 March 2023",
     "website": "https://anz.serverlessdays.io",
