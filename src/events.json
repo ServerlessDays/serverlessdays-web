@@ -364,6 +364,14 @@
     "image": "http://student.serverlessdays.io/camp.png"
   },
   {
+    "label": "ANZ",
+    "loc": { "lat": -37.8179789, "lng": 144.9649377 },
+    "date": "10 March 2023",
+    "website": "https://anz.serverlessdays.io",
+    "email": "anz@serverlessdays.io",
+    "image": ""
+  },
+  {
     "label": "Paris",
     "loc": { "lat": 48.864716, "lng": 2.349014 },
     "date": "7 June 2023",
