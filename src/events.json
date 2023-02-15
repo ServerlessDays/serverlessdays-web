@@ -288,9 +288,9 @@
     "label": "Zürich",
     "loc": { "lat": 47.3766, "lng": 8.5332 },
     "email": "zurich@serverlessdays.io",
-    "date": "24 September 2020",
+    "date": "22 June 2022",
     "website": "https://zurich.serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2020/master/assets/images/zurich_panorama.jpg"
+    "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2023/master/assets/images/zurich_panorama.jpg"
   },
   {
     "label": "Virtual",
