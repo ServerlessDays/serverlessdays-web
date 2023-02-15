@@ -1,225 +1,382 @@
-[{
-    "label": "Auckland",
-    "loc": {"lat": -36.8485, "lng": 174.7633},
-    "date": "5 June 2018",
-    "email": "auckland@serverlessdays.io",
-    "website": "https://serverless.org.nz",
-    "image": "https://res.cloudinary.com/dtsyxzxfx/image/upload/x_350,y_50,w_2566,h_2566,c_crop/w_280,h_280,c_scale,f_auto,q_auto/v1523129875/samuel-ferrara-503754-unsplash.jpg"
-}, {
+[
+  {
     "label": "Portland",
-    "loc": {"lat": 45.524176, "lng": -122.682122},
+    "loc": { "lat": 45.524176, "lng": -122.682122 },
     "email": "portland@serverlessdays.io",
     "website": "https://pdx.serverlessdays.io",
     "date": "17 September 2018",
     "image": "https://raw.githubusercontent.com/stackery/ServerlessDays-PDX/master/public/media/pdx_square_logo.png"
-},
-{
+  },
+  {
     "label": "Toronto",
-    "loc": {"lat": 43.643485, "lng": -79.380961},
+    "loc": { "lat": 43.643485, "lng": -79.380961 },
     "email": "toronto@serverlessdays.io",
     "website": "https://functions.events",
     "date": "28 September 2018",
     "image": "https://raw.githubusercontent.com/functions-conf/brand/38d3160bacc95d3279662369d7ab8db6b5fd2c6b/social/serverlessdays-website.png"
-},
-{
+  },
+  {
     "label": "Seattle",
-    "loc": {"lat": 47.624567, "lng": -122.350416},
+    "loc": { "lat": 47.624567, "lng": -122.350416 },
     "email": "seattle@serverlessdays.io",
     "date": "4 October 2018",
     "website": "https://seattle.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/mweagle/ServerlessDays-Seattle/master/public/media/seattle-870282_1920.jpg"
-},{
-    "label": "New York",
-    "loc": {"lat": 40.7128, "lng": -74.0060},
-    "email": "newyork@serverlessdays.io",
-    "website": "http://nyc.serverlessdays.io",
-    "date": "30 October 2018",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1535625308/serverlessdays-nyc-2018.jpg"
-},
-{
-    "label": "Vienna",
-    "loc": {"lat": 48.2082, "lng": 16.3738},
-    "email": "vienna@serverlessdays.io",
-    "website": "https://vienna.serverlessdays.io",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1523812133/vienna-2018.jpg"
-}, {
-    "label": "Cardiff",
-    "loc": {"lat": 51.4824, "lng": -3.1746},
-    "date": "30 January 2019",
-    "website": "https://cardiff.serverlessdays.io",
-    "email": "cardiff@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff-event.jpg"
-}, {
-    "label": "Hamburg",
-    "loc": {"lat": 53.5511, "lng": 9.9937},
-    "date": "15 February 2019",
-    "website": "https://hamburg.serverlessdays.io",
-    "email": "hamburg@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/superluminar-io/superluminar-website/master/static/images/blog/serverlessdays/web%20visual.png"
-},{
+  },
+  {
     "label": "Jaipur",
-    "loc": {"lat": 26.9126, "lng": 75.7905},
+    "loc": { "lat": 26.9126, "lng": 75.7905 },
     "date": "17 February 2019",
     "email": "jaipur@serverlessdays.io",
     "website": "https://jaipur.serverlessdays.io",
-    "image":"https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
-},{
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_300/c_crop,g_north,w_280,h_280/v1534240117/serverlessdays-jaipur-2018.jpg"
+  },
+  {
     "label": "Austin",
-    "loc": {"lat": 30.256445, "lng": -97.763543},
+    "loc": { "lat": 30.256445, "lng": -97.763543 },
     "email": "austin@serverlessdays.io",
     "website": "https://atx.serverlessdays.io",
     "date": "22 February 2019",
     "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1539625701/atx-capitol.280x280.jpg"
-},{
-    "label": "Boston",
-    "loc": {"lat": 42.3601, "lng": -71.0589},
-    "email": "boston@serverlessdays.io",
-    "date": "12 March 2019",
-    "website": "https://boston.serverlessdays.io",
-    "image": "https://boston.serverlessdays.io/sd-bos-tile.png"
-},{
-    "label": "Amsterdam",
-    "loc": {"lat": 52.3702, "lng": 4.8952},
-    "email": "amsterdam@serverlessdays.io",
-    "website": "https://serverlessdays.amsterdam",
-    "date": "29 March 2019",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
-},{
+  },
+  {
     "label": "Atlanta",
-    "loc": {"lat": 33.7493, "lng": -84.3855},
+    "loc": { "lat": 33.7493, "lng": -84.3855 },
     "email": "atlanta@serverlessdays.io",
     "website": "https://atlanta.serverlessdays.io",
     "date": "9 April 2019",
     "image": "https://atlanta.serverlessdays.io/img/atlanta.jpg"
-},{
-    "label": "Zürich",
-    "loc": {"lat": 47.3766, "lng": 8.5332},
-    "email": "zurich@serverlessdays.io",
-    "date": "11 April 2019",
-    "website": "https://zurich.serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2019/master/assets/images/zurich_panorama.jpg"
-},{
-    "label": "Helsinki",
-    "loc": {"lat": 60.1733, "lng": 24.9410},
-    "email": "helsinki@serverlessdays.io",
-    "date": "25 April 2019",
-    "website": "https://helsinki.serverlessdays.io",
-    "image": "https://helsinki.serverlessdays.io/images/helsinki.jpg"
-},{
+  },
+  {
     "label": "Tel Aviv",
-    "loc": {"lat": 32.071751, "lng": 34.789118},
+    "loc": { "lat": 32.071751, "lng": 34.789118 },
     "website": "https://tlv.serverlessdays.io",
     "date": "4 June 2019",
     "email": "tlv@serverlessdays.io",
     "image": "https://tlv.serverlessdays.io/banner_serverlessdays_tlv.jpg"
-},{
-    "label": "Milan",
-    "loc": {"lat": 45.4642, "lng": 9.1900},
-    "email": "milan@serverlessdays.io",
-    "date": "21 June 2019",
-    "website": "https://milan.serverlessdays.io",
-    "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_auto/v1523028311/milan-grand-visconti-palace.jpg"
-},{
+  },
+  {
     "label": "London",
-    "loc": {"lat": 51.5127, "lng": -0.0906},
+    "loc": { "lat": 51.5127, "lng": -0.0906 },
     "website": "https://london.serverlessdays.io",
     "date": "11 July 2019",
     "email": "london@serverlessdays.io",
     "image": "https://london.serverlessdays.io/img/imperial_above.jpg"
-},{
+  },
+  {
     "label": "Sydney",
-    "loc": {"lat": -33.8787, "lng": 151.2138},
+    "loc": { "lat": -33.8787, "lng": 151.2138 },
     "website": "https://sydney.serverlessdays.io",
     "date": "27 August 2019",
     "email": "sydney@serverlessdays.io",
-    "image": "https://sydney.serverlessdays.io/img/SydneyHarbourOperaHouse.jpg"
-},{
-    "label": "Los Angeles",
-    "loc": {"lat": 34.0919, "lng": 118.3378},
-    "email": "losangeles@serverlessdays.io"
-}, {
-    "label": "Dublin",
-    "loc": {"lat": 53.3498, "lng": -6.2603},
-    "email": "dublin@serverlessdays.io"
-}, {
-    "label": "San Francisco",
-    "loc": {"lat": 37.7749, "lng": -122.4194},
-    "email": "sanfrancisco@serverlessdays.io"
-},{
-    "label": "Istanbul",
-    "loc": {"lat": 41.0340, "lng": 28.8774},
-    "email": "istanbul@serverlessdays.io"
-},{
-    "label": "Hong Kong",
-    "loc": {"lat": 22.3239, "lng": 114.1722},
-    "email": "hongkong@serverlessdays.io"
-},{
-    "label": "Singapore",
-    "loc": {"lat": 1.3517, "lng": 103.8682},
-    "email": "singapore@serverlessdays.io"
-},{
-    "label": "Berlin",
-    "loc": {"lat": 52.5177, "lng": 13.3986},
-    "email": "berlin@serverlessdays.io"
-},{
-    "label": "Charlotte",
-    "loc": {"lat": 35.2264, "lng": -80.8410},
-    "email": "charlotte@serverlessdays.io"
-},{
-    "label": "São Paulo",
-    "loc": {"lat": -23.5689, "lng": -46.6513},
-    "email": "saopaulo@serverlessdays.io"
-},{
-    "label": "Chicago",
-    "loc": {"lat": 41.8766, "lng": -87.6317},
-    "email": "chicago@serverlessdays.io"
-},{
-    "label": "Vancouver",
-    "loc": {"lat": 49.2668, "lng": -123.1170},
-    "email": "vancouver@serverlessdays.io"
-},{
-    "label": "Bogotá",
-    "loc": {"lat": 4.6083, "lng": -74.0837},
-    "email": "bogota@serverlessdays.io"
-},{
-    "label": "Santiago",
-    "loc": {"lat": -33.4592, "lng": -70.6477},
-    "email": "santiago@serverlessdays.io"
-},{
-    "label": "Lima",
-    "loc": {"lat": -12.0489, "lng": -77.0430},
-    "email": "lima@serverlessdays.io"
-},{
-    "label": "Lviv",
-    "loc": {"lat": 49.8353, "lng": 24.0264},
-    "email": "lviv@serverlessdays.io"
-},{
-    "label": "Denver",
-    "loc": {"lat": 39.7249, "lng": -104.9732},
-    "email": "denver@serverlessdays.io"
-},{
-    "label": "Seoul",
-    "loc": {"lat": 37.5406, "lng": 126.9906},
-    "email": "seoul@serverlessdays.io"
-},{
-    "label": "Madrid",
-    "loc": {"lat": 40.4156, "lng": -3.7063},
-    "email": "madrid@serverlessdays.io"
-},{
-    "label": "Nashville",
-    "loc": {"lat": 36.1627, "lng": -86.7816},
-    "email": "nashville@serverlessdays.io"
-},{
+    "image": "https://res.cloudinary.com/du73ags2q/image/upload/v1561613359/SydneyHarbourOperaHouse_jvfdhr.jpg"
+  },
+  {
     "label": "Melbourne",
-    "loc": {"lat": -37.8033, "lng": 144.9717},
-    "email": "melbourne@serverlessdays.io", 
+    "loc": { "lat": -37.8033, "lng": 144.9717 },
+    "email": "melbourne@serverlessdays.io",
     "website": "https://www.serverlessdays.me",
     "date": "29 August 2019",
     "image": "https://www.serverlessdays.me/images/melbourne2.jpg"
-    
-},{
+  },
+  {
+    "label": "Belgrade",
+    "loc": { "lat": 44.81892, "lng": 20.45998 },
+    "email": "belgrade@serverlessdays.io",
+    "website": "https://serverlessbelgrade.com",
+    "date": "13 September 2019",
+    "image": "https://serverlessbelgrade.com/images/belgrade.jpg"
+  },
+  {
+    "label": "İstanbul",
+    "loc": { "lat": 41.024891, "lng": 28.956651 },
+    "date": "03 October 2019",
+    "email": "istanbul@serverlessdays.io",
+    "website": "http://istanbul.serverlessdays.io",
+    "image": "http://istanbul.serverlessdays.io/media/istanbul.jpg"
+  },
+  {
+    "label": "Tokyo",
+    "loc": { "lat": 35.6762, "lng": 139.6503 },
+    "email": "japan@serverlessdays.io",
+    "website": "https://tokyo.serverlessdays.io",
+    "date": "22 October 2019",
+    "image": "https://tokyo.serverlessdays.io/assets/images/tokyo_blue.jpg"
+  },
+  {
+    "label": "Fukuoka",
+    "loc": { "lat": 33.5902, "lng": 130.4017 },
+    "date": "14 December 2019",
+    "email": "japan@serverlessdays.io",
+    "website": "https://fukuoka.serverlessdays.io",
+    "image": "https://fukuoka.serverlessdays.io/images/fukuoka_blue.jpg"
+  },
+  {
+    "label": "Los Angeles",
+    "loc": { "lat": 34.0919, "lng": -118.3378 },
+    "email": "losangeles@serverlessdays.io"
+  },
+  {
+    "label": "Dublin",
+    "loc": { "lat": 53.3498, "lng": -6.2603 },
+    "email": "dublin@serverlessdays.io"
+  },
+  {
+    "label": "San Francisco",
+    "loc": { "lat": 37.7749, "lng": -122.4194 },
+    "email": "sanfrancisco@serverlessdays.io"
+  },
+  {
+    "label": "Hong Kong",
+    "loc": { "lat": 22.3239, "lng": 114.1722 },
+    "email": "hongkong@serverlessdays.io"
+  },
+  {
+    "label": "Singapore",
+    "loc": { "lat": 1.3517, "lng": 103.8682 },
+    "email": "singapore@serverlessdays.io"
+  },
+  {
+    "label": "Berlin",
+    "loc": { "lat": 52.5177, "lng": 13.3986 },
+    "email": "berlin@serverlessdays.io"
+  },
+  {
+    "label": "Charlotte",
+    "loc": { "lat": 35.2264, "lng": -80.841 },
+    "email": "charlotte@serverlessdays.io"
+  },
+  {
+    "label": "São Paulo",
+    "loc": { "lat": -23.5689, "lng": -46.6513 },
+    "email": "saopaulo@serverlessdays.io"
+  },
+  {
+    "label": "Chicago",
+    "loc": { "lat": 41.8766, "lng": -87.6317 },
+    "email": "chicago@serverlessdays.io"
+  },
+  {
+    "label": "Vancouver",
+    "loc": { "lat": 49.2668, "lng": -123.117 },
+    "email": "vancouver@serverlessdays.io"
+  },
+  {
+    "label": "Bogotá",
+    "loc": { "lat": 4.6083, "lng": -74.0837 },
+    "email": "bogota@serverlessdays.io"
+  },
+  {
+    "label": "Santiago",
+    "loc": { "lat": -33.4592, "lng": -70.6477 },
+    "email": "santiago@serverlessdays.io"
+  },
+  {
+    "label": "Lima",
+    "loc": { "lat": -12.0489, "lng": -77.043 },
+    "email": "lima@serverlessdays.io"
+  },
+  {
+    "label": "Lviv",
+    "loc": { "lat": 49.8353, "lng": 24.0264 },
+    "email": "lviv@serverlessdays.io"
+  },
+  {
+    "label": "Denver",
+    "loc": { "lat": 39.7249, "lng": -104.9732 },
+    "email": "denver@serverlessdays.io"
+  },
+  {
+    "label": "Seoul",
+    "loc": { "lat": 37.5406, "lng": 126.9906 },
+    "email": "seoul@serverlessdays.io"
+  },
+  {
+    "label": "Madrid",
+    "loc": { "lat": 40.4156, "lng": -3.7063 },
+    "email": "madrid@serverlessdays.io"
+  },
+  {
+    "label": "Belfast",
+    "loc": { "lat": 54.6078, "lng": -5.9264 },
+    "date": "28 February 2023",
+    "website": "https://serverlessdaysbelfast.com/",
+    "email": "belfast@serverlessdays.io",
+    "image": "https://dz0p6k26nsc2t.cloudfront.net/img/harland_and_wolff.jpg"
+  },
+  {
+    "label": "Cardiff",
+    "loc": { "lat": 51.4824, "lng": -3.1746 },
+    "date": "13 February 2020",
+    "website": "https://cardiff.serverlessdays.io",
+    "email": "cardiff@serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff2020-event.jpg"
+  },
+  {
+    "label": "Rome",
+    "loc": { "lat": 41.9028, "lng": 12.4964 },
+    "email": "rome@serverlessdays.io",
+    "website": "https://rome.serverlessdays.io",
+    "date": "21 February 2020",
+    "image": "http://rome.serverlessdays.io/assets/images/Bridge_Vittorio_Emanuele_II_at_sunset_1024.jpg"
+  },
+  {
+    "label": "Helsinki",
+    "loc": { "lat": 60.1733, "lng": 24.941 },
+    "email": "helsinki@serverlessdays.io",
+    "date": "Postponed until further notice",
+    "website": "https://helsinki.serverlessdays.io",
+    "image": "https://helsinki.serverlessdays.io/images/helsinki.jpg"
+  },
+  {
+    "label": "Boston",
+    "loc": { "lat": 42.3601, "lng": -71.0589 },
+    "email": "boston@serverlessdays.io",
+    "date": "Postponed until further notice",
+    "website": "https://boston.serverlessdays.io",
+    "image": "https://boston.serverlessdays.io/sd-bos-tile.png"
+  },
+  {
+    "label": "Auckland",
+    "loc": { "lat": -36.8485, "lng": 174.7633 },
+    "email": "auckland@serverlessdays.io",
+    "date": "Postponed until further notice",
+    "website": "https://serverless.org.nz/",
+    "image": "https://res.cloudinary.com/dtsyxzxfx/image/upload/f_auto,q_auto/v1578469767/2020/dan-freeman-hIKVSVKH7No-unsplash_mini.png"
+  },
+  {
+    "label": "Vienna",
+    "loc": { "lat": 48.2082, "lng": 16.3738 },
+    "email": "vienna@serverlessdays.io",
+    "website": "https://vienna.serverlessdays.io",
+    "date": "Cancelled",
+    "image": "https://vienna.serverlessdays.io/images/vienna-4403839_1920_with_caption.png"
+  },
+  {
+    "label": "Amsterdam",
+    "loc": { "lat": 52.3702, "lng": 4.8952 },
+    "email": "amsterdam@serverlessdays.io",
+    "website": "https://serverlessdays.nl",
+    "date": "Postponed until further notice",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_280,w_280/v1527152567/amsterdam-2018.jpg"
+  },
+  {
+    "label": "China",
+    "loc": { "lat": 22.54554, "lng": 114.0683 },
+    "date": "19 June 2020",
+    "website": "https://china.serverlessdays.io",
+    "email": "china@serverlessdays.io",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1591218332/teams/slsdays_china.png"
+  },
+  {
+    "label": "Sydney",
+    "loc": { "lat": -33.8779331, "lng": 151.2082085 },
+    "email": "sydney@serverlessdays.io",
+    "date": "18 August 2020",
+    "website": "https://sydney.serverlessdays.io",
+    "image": "https://sydney.serverlessdays.io/img/opera-house-at-night.jpg"
+  },
+  {
+    "label": "Warsaw",
+    "loc": { "lat": 52.2315, "lng": 21.0062 },
+    "date": "3 September 2020",
+    "website": "https://warsaw.serverlessdays.io",
+    "email": "warsaw@serverlessdays.io",
+    "image": "https://warsaw.serverlessdays.io/img/waw4.png"
+  },
+  {
+    "label": "Zürich",
+    "loc": { "lat": 47.3766, "lng": 8.5332 },
+    "email": "zurich@serverlessdays.io",
+    "date": "24 September 2020",
+    "website": "https://zurich.serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2020/master/assets/images/zurich_panorama.jpg"
+  },
+  {
+    "label": "Virtual",
+    "email": "virtual@serverlessdays.io",
+    "date": "28 October 2020",
+    "website": "https://virtual.serverlessdays.io",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1602068123/Virtual/virtual.jpg"
+  },
+  {
     "label": "Stockholm",
-    "loc": {"lat": 59.3293, "lng": 18.0686},
+    "loc": { "lat": 59.3293, "lng": 18.0686 },
     "email": "stockholm@serverlessdays.io",
-    "website": "https://stockholm.serverlessdays.io"
-}]
+    "website": "https://stockholm.serverlessdays.io",
+    "date": "25 November 2020",
+    "image": "https://stockholm.serverlessdays.io/img/stockholm.jpg"
+  },
+  {
+    "label": "Ahmedabad",
+    "loc": { "lat": 23.0202434, "lng": 72.5797426 },
+    "email": "ahmedabad@serverlessdays.io",
+    "date": "5 December 2020",
+    "website": "https://ahmedabad.serverlessdays.io",
+    "image": "https://ahmedabad.serverlessdays.io/images/Ahemdabad.jpg"
+  },
+  {
+    "label": "Nashville",
+    "loc": { "lat": 36.1627, "lng": -86.7816 },
+    "email": "nashville@serverlessdays.io",
+    "website": "https://serverlessnashville.io",
+    "date": "14 September 2021",
+    "image": "https://serverlessnashville.s3.amazonaws.com/nashville2.jpg"
+  },
+  {
+    "label": "Hamburg",
+    "loc": { "lat": 53.5511, "lng": 9.9937 },
+    "date": "17 September 2021",
+    "website": "https://hamburg.serverlessdays.io",
+    "email": "hamburg@serverlessdays.io",
+    "image": "https://superluminar.io/images/blog/serverlessdays/web%20visual.png"
+  },
+  {
+    "label": "Milan",
+    "loc": { "lat": 45.4642, "lng": 9.19 },
+    "email": "milan@serverlessdays.io",
+    "date": "23 October 2021",
+    "website": "https://milan.serverlessdays.io",
+    "image": "https://res.cloudinary.com/serverlessdays/image/upload/w_300,h_280,c_fill,g_xy_center,x_1800/v1578498701/Milano.jpg"
+  },  
+  {
+    "label": "Nashville",
+    "loc": { "lat": 36.1627, "lng": -86.7816 },
+    "email": "nashville@serverlessdays.io",
+    "website": "https://serverlessnashville.io",
+    "date": "Postponed",
+    "image": "https://serverlessnashville.s3.amazonaws.com/nashville.jpg"
+  },
+  {
+    "label": "New York",
+    "loc": { "lat": 40.7128, "lng": -74.006 },
+    "email": "newyork@serverlessdays.io",
+    "website": "http://newyork.serverlessdays.io",
+    "date": "24 June 2022",
+    "image": "https://newyork.serverlessdays.io/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1544111795-fe8b9def73f6%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D977%26q%3D30&w=3840&q=75"
+  },
+  {
+    "label": "Student Edition",
+    "loc": { "lat": 37.7749, "lng": 122.4194 },
+    "email": "student@serverlessdays.io",
+    "website": "https://student.serverlessdays.io",
+    "date": "21 August 2022",
+    "image": "http://student.serverlessdays.io/camp.png"
+  },
+  {
+    "label": "ANZ",
+    "loc": { "lat": -37.8179789, "lng": 144.9649377 },
+    "date": "10 March 2023",
+    "website": "https://anz.serverlessdays.io",
+    "email": "anz@serverlessdays.io",
+    "image": ""
+  },
+  {
+    "label": "Paris",
+    "loc": { "lat": 48.864716, "lng": 2.349014 },
+    "date": "7 June 2023",
+    "website": "https://paris.serverlessdays.io",
+    "email": "paris@serverlessdays.io",
+    "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
+  }
+]

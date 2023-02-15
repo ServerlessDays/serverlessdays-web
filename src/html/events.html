@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>ServerlessDays Upcoming Events</title>
     <link rel="canonical" href="https://www.serverlessdays.io/events" />
     @@include('./fragments/_headers.html')
-</head>
+  </head>
 
-<body class="page-events avenir">
-    
+  <body class="page-events avenir">
     @@include('./fragments/_menu.html')
 
     <div class="w-100 bg-grad6 mt2 mt4-ns relative pb3">
-        <div class="w-90 center">
-            <div class="tc tr-ns mt3-ns">
-                <img class="pa1" title="ServerlessDays" alt="ServerlessDays" src="https://res.cloudinary.com/senzo/image/upload/c_scale,w_360/v1518368968/serverless_logo_no_undertext_jcfeso.png" />
-            </div>
-
-            <div class="w-100 w-80-ns center dark-gray pt4 ph2">
-                <h1 class="f3 f2-ns tl">Upcoming Events</h1>
-                <div class="mw6 mw8-ns f6 f5-ns mt4 lh-copy">
-                    <p>The list below includes all the upcoming events around the world (find more <a class="orange" href="/map" title="ServerlessDays Map">WIP events on the map</a>!).</p>
-                    <p>Check out the local websites for more information about CfP's, sponsorships, and agendas.</p>
-                </div>
-            </div>
-
+      <div class="w-90 center">
+        <div class="tc tr-ns mt3-ns">
+          <img
+            class="pa1"
+            title="ServerlessDays"
+            alt="ServerlessDays"
+            src="https://res.cloudinary.com/senzo/image/upload/c_scale,w_360/v1518368968/serverless_logo_no_undertext_jcfeso.png"
+          />
         </div>
 
+        <div class="w-100 w-80-ns center dark-gray pt4 ph2">
+          <h1 class="f3 f2-ns tl">Upcoming Events</h1>
+          <div class="mw6 mw8-ns f6 f5-ns mt4 lh-copy">
+            <p>
+              The list below includes all the upcoming events around the world
+              (find more
+              <a class="orange" href="/map" title="ServerlessDays Map"
+                >WIP events on the map</a
+              >!).
+            </p>
+            <p>
+              Check out the local websites for more information about CfP's,
+              sponsorships, and agendas.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="w-100 clearfix bg-grad7 pt4-ns relative">
-        <div class="dn db-l absolute right-2 mr5" style="margin-top: -120px">
-            <img class="pa0 ma0" title="I am Jeff's friend!" alt="" src="https://res.cloudinary.com/senzo/image/upload/c_scale,w_160/v1518368936/Moth_mascot_jeph83.png">
-        </div>
+      <div class="dn db-l absolute right-2 mr5" style="margin-top: -120px">
+        <img
+          class="pa0 ma0"
+          title="I am Jeff's friend!"
+          alt=""
+          src="https://res.cloudinary.com/senzo/image/upload/c_scale,w_160/v1518368936/Moth_mascot_jeph83.png"
+        />
+      </div>
     </div>
 
-    <div class="w-100 clearfix relative mt5">
-
-        <div class="dt-ns center three-columns">
-            
-            @@loop("fragments/_event.html", "../events.json")
-            
-        </div>
-    
+    <div class="w-90 w-80-ns clearfix relative mt5 center">
+      <div class="flex flex-wrap justify-between center">
+        @@loop("fragments/_event.html", "../events.json")
+      </div>
     </div>
 
-    @@include('./fragments/_news.html')
-    
     @@include('./fragments/_footer.html')
-
-</body>
+  </body>
 </html>

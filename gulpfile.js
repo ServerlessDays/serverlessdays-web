@@ -1,104 +1,103 @@
-var gulp = require('gulp');
-var htmlmin = require('gulp-htmlmin');
-var uglify = require('gulp-uglify');
-var minifyInline = require('gulp-minify-inline');
-var minifyInlineJSON = require('gulp-minify-inline-json');
-var pump = require('pump');
-var historyApiFallback = require('connect-history-api-fallback');
-var fileinclude = require('gulp-file-include');
-var browserSync = require('browser-sync').create();
-var del = require('del');
-var plumber = require('gulp-plumber');
+const { src, dest, watch, series } = require('gulp')
+const htmlmin = require('gulp-htmlmin')
+const uglify = require('gulp-uglify')
+const minifyInline = require('gulp-minify-inline')
+const minifyInlineJSON = require('gulp-minify-inline-json')
+const pump = require('pump')
+const historyApiFallback = require('connect-history-api-fallback')
+const fileinclude = require('gulp-file-include')
+const browserSync = require('browser-sync').create()
+const del = require('del')
+const plumber = require('gulp-plumber')
 
-gulp.task('compress', function(cb) {
-    return pump([
-            gulp.src('src/*.js'),
-            uglify(),
-            gulp.dest('dist')
-        ],
-        cb
-    );
-});
-
-gulp.task('clean', function () {
-    return del([
-        'dist/**',
-        'src/html-compiled/**',
-    ]);
-});
-
-gulp.task('fileinclude', ['clean'], function(callback) {
-    return gulp.src(['src/html/*.html'])
-      .pipe(plumber())
-      .pipe(fileinclude({
-        prefix: '@@',
-        basepath: '@file'
-      }))
-      .pipe(gulp.dest('src/html-compiled/'))
-      .pipe(browserSync.stream());
-  });
-
-gulp.task('minify', ['fileinclude'], function() {
-    return gulp.src('src/html-compiled/**/*.html')
-        .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
-        .pipe(minifyInline())
-        .pipe(minifyInlineJSON())
-        .pipe(gulp.dest('dist'));
-});
-
-gulp.task('copy', function() {
-    return gulp.src([
-            'src/_redirects',
-            'src/*.xml',
-            'src/*.txt'
-        ])
-        .pipe(gulp.dest('dist'));
-});
-
-gulp.task('build', ['minify', 'compress', 'copy']);
-
-gulp.task('include-watch', ['fileinclude'], browserSync.reload);
-
-gulp.task('watch', ['fileinclude', 'browser-sync'], function () {
-    "use strict";
-    gulp.watch("./src/html/**/*.html", ['include-watch']);
-    gulp.watch("./src/*.json", ['include-watch']);
-});
-
-gulp.task('watch-dist', ['build'], function () {
-    "use strict";
-    gulp.watch("./dist/*.html", browserSync.reload);
-});
-
-function simpleURLRewrite(req, res, next) {
-    if (req.url === '/') {
-        req.url = "/index";
-    }
-    if (req.url.indexOf('.') === -1) {
-        req.url += ".html";
-    }
-    return next();
+const compress = cb => {
+  return pump([src('src/*.js'), uglify(), dest('dist')], cb)
 }
 
+const clean = () => {
+  return del(['dist/**', 'src/html-compiled/**'])
+}
+
+const fileInclude = series(clean, () => {
+  return src(['src/html/*.html'])
+    .pipe(plumber())
+    .pipe(
+      fileinclude({
+        prefix: '@@',
+        basepath: '@file'
+      })
+    )
+    .pipe(dest('src/html-compiled/'))
+    .pipe(browserSync.stream())
+})
+
+const minify = series(fileInclude, () => {
+  return src('src/html-compiled/**/*.html')
+    .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
+    .pipe(minifyInline())
+    .pipe(minifyInlineJSON())
+    .pipe(dest('dist'))
+})
+
+const copy = () => {
+  return src(['src/_redirects', 'src/*.xml', 'src/*.txt']).pipe(dest('dist'))
+}
+
+const build = series(minify, compress, copy)
+
 // Static server
-gulp.task('browser-sync', ['fileinclude'], function() {
-    browserSync.init({
-        server: {
-            baseDir: "./src/html-compiled/",
-        },
-        middleware: simpleURLRewrite,
-    });
-});
+const browserSyncTask = series(fileInclude, () => {
+  browserSync.init({
+    server: {
+      baseDir: './src/html-compiled/'
+    },
+    middleware: simpleURLRewrite
+  })
+})
 
-gulp.task('browser-sync-dist', ['build'], function() {
-    browserSync.init({
-        server: {
-            baseDir: "./dist/",
-        },
-        middleware: simpleURLRewrite,
-    });
-});
+const browserSyncDist = series(build, () => {
+  browserSync.init({
+    server: {
+      baseDir: './dist/'
+    },
+    middleware: simpleURLRewrite
+  })
+})
 
-gulp.task('default', ['watch']);
+const includeWatch = series(fileInclude, browserSync.reload)
 
-gulp.task('dist', ['watch-dist', 'browser-sync-dist']);
+const watchBuild = series(fileInclude, browserSyncTask, function () {
+  watch('./src/html/**/*.html', includeWatch)
+  watch('./src/*.json', includeWatch)
+})
+
+const watchDist = series(build, () => {
+  watch('./dist/*.html', browserSync.reload)
+})
+
+function simpleURLRewrite (req, res, next) {
+  if (req.url === '/') {
+    req.url = '/index'
+  }
+  if (req.url.indexOf('.') === -1) {
+    req.url += '.html'
+  }
+  return next()
+}
+
+// const default = series(watchBuild)
+const dist = series(watchDist, browserSyncDist)
+
+exports.dist = dist
+exports.browserSyncDist = browserSyncDist
+exports.browserSyncTask = browserSyncTask
+exports.watchDist = watchDist
+exports.build = build
+exports.watchBuild = watchBuild
+exports.includeWatch = includeWatch
+exports.copy = copy
+exports.minify = minify
+exports.fileInclude = fileInclude
+exports.clean = clean
+exports.compress = compress
+exports.default = watchBuild
