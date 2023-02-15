@@ -285,14 +285,6 @@
     "image": "https://warsaw.serverlessdays.io/img/waw4.png"
   },
   {
-    "label": "Zürich",
-    "loc": { "lat": 47.3766, "lng": 8.5332 },
-    "email": "zurich@serverlessdays.io",
-    "date": "24 September 2020",
-    "website": "https://zurich.serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2020/master/assets/images/zurich_panorama.jpg"
-  },
-  {
     "label": "Virtual",
     "email": "virtual@serverlessdays.io",
     "date": "28 October 2020",
@@ -378,5 +370,13 @@
     "website": "https://paris.serverlessdays.io",
     "email": "paris@serverlessdays.io",
     "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
+  },
+  {
+    "label": "Zürich",
+    "loc": { "lat": 47.3766, "lng": 8.5332 },
+    "email": "zurich@serverlessdays.io",
+    "date": "22 June 2023",
+    "website": "https://zurich.serverlessdays.io",
+    "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2023/master/assets/images/zurich_panorama.jpg"
   }
 ]
