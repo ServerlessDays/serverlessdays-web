@@ -40,7 +40,7 @@
     "mixin-deep": "^2.0.1",
     "pump": "^2.0.1",
     "randomatic": "^3.1.1",
-    "set-value": "^3.0.2",
+    "set-value": "^4.0.1",
     "sshpk": "^1.16.1",
     "stringstream": "^1.0.0",
     "http-proxy": ">=1.18.1",
