@@ -21,7 +21,7 @@
   "devDependencies": {
     "@hapi/cryptiles": "^5.1.0",
     "@hapi/hoek": "^9.0.4",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.11",
     "connect-history-api-fallback": "^1.6.0",
     "del": "^5.1.0",
     "extend": "^3.0.2",
@@ -46,7 +46,7 @@
     "http-proxy": ">=1.18.1",
     "object-path": ">=0.11.5",
     "axios": ">=0.21.2",
-    "socket.io": ">=2.4.0",
+    "socket.io": ">=4.6.0",
     "yargs-parser": ">=5.0.0-security.0"
   },
   "dependencies": {}
