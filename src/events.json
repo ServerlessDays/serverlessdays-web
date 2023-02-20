@@ -197,22 +197,6 @@
     "email": "madrid@serverlessdays.io"
   },
   {
-    "label": "Belfast",
-    "loc": { "lat": 54.6078, "lng": -5.9264 },
-    "date": "28 February 2023",
-    "website": "https://serverlessdaysbelfast.com/",
-    "email": "belfast@serverlessdays.io",
-    "image": "https://dz0p6k26nsc2t.cloudfront.net/img/harland_and_wolff.jpg"
-  },
-  {
-    "label": "Cardiff",
-    "loc": { "lat": 51.4824, "lng": -3.1746 },
-    "date": "21 September 2023",
-    "website": "https://cardiff.serverlessdays.io",
-    "email": "cardiff@serverlessdays.io",
-    "image": "https://res.cloudinary.com/dod4lcj3h/image/upload/v1676888679/SLSDaysCardiff2023_sitkln.jpg"
-  },
-  {
     "label": "Rome",
     "loc": { "lat": 41.9028, "lng": 12.4964 },
     "email": "rome@serverlessdays.io",
@@ -356,6 +340,14 @@
     "image": "http://student.serverlessdays.io/camp.png"
   },
   {
+    "label": "Belfast",
+    "loc": { "lat": 54.6078, "lng": -5.9264 },
+    "date": "28 February 2023",
+    "website": "https://serverlessdaysbelfast.com/",
+    "email": "belfast@serverlessdays.io",
+    "image": "https://dz0p6k26nsc2t.cloudfront.net/img/harland_and_wolff.jpg"
+  },
+  {
     "label": "ANZ",
     "loc": { "lat": -37.8179789, "lng": 144.9649377 },
     "date": "10 March 2023",
@@ -378,5 +370,13 @@
     "date": "22 June 2023",
     "website": "https://zurich.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2023/master/assets/images/zurich_panorama.jpg"
+  },
+  {
+    "label": "Cardiff",
+    "loc": { "lat": 51.4824, "lng": -3.1746 },
+    "date": "21 September 2023",
+    "website": "https://cardiff.serverlessdays.io",
+    "email": "cardiff@serverlessdays.io",
+    "image": "https://res.cloudinary.com/dod4lcj3h/image/upload/v1676888679/SLSDaysCardiff2023_sitkln.jpg"
   }
 ]
