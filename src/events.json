@@ -207,10 +207,10 @@
   {
     "label": "Cardiff",
     "loc": { "lat": 51.4824, "lng": -3.1746 },
-    "date": "13 February 2020",
+    "date": "21 September 2023",
     "website": "https://cardiff.serverlessdays.io",
     "email": "cardiff@serverlessdays.io",
-    "image": "https://raw.githubusercontent.com/mlewis7127/ServerlessDays-Cardiff-2019/master/src/imgs/serverless-cardiff2020-event.jpg"
+    "image": "https://res.cloudinary.com/dod4lcj3h/image/upload/v1676888679/SLSDaysCardiff2023_sitkln.jpg"
   },
   {
     "label": "Rome",
