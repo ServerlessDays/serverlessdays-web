@@ -149,6 +149,8 @@
   {
     "label": "São Paulo",
     "loc": { "lat": -23.5689, "lng": -46.6513 },
+    "date": "21 October 2021",
+    "website": "https://saopaulo.serverlessdays.io",
     "email": "saopaulo@serverlessdays.io"
   },
   {
