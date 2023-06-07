@@ -378,7 +378,7 @@
     "label": "São Paulo",
     "date": "21 October 2023",
     "loc": { "lat": -23.5689, "lng": -46.6513 },
-    "email": "saopaulo@serverlessdays.io"
+    "email": "saopaulo@serverlessdays.io",
     "website": "https://saopaulo.serverlessdays.io",
     "image": "https://images.sympla.com.br/64793334b4e72-lg.png"
   }
