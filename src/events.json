@@ -147,11 +147,6 @@
     "email": "charlotte@serverlessdays.io"
   },
   {
-    "label": "São Paulo",
-    "loc": { "lat": -23.5689, "lng": -46.6513 },
-    "email": "saopaulo@serverlessdays.io"
-  },
-  {
     "label": "Chicago",
     "loc": { "lat": 41.8766, "lng": -87.6317 },
     "email": "chicago@serverlessdays.io"
@@ -378,5 +373,13 @@
     "website": "https://cardiff.serverlessdays.io",
     "email": "cardiff@serverlessdays.io",
     "image": "https://res.cloudinary.com/dod4lcj3h/image/upload/v1676888679/SLSDaysCardiff2023_sitkln.jpg"
+  },
+  {
+    "label": "São Paulo",
+    "date": "21 October 2023",
+    "loc": { "lat": -23.5689, "lng": -46.6513 },
+    "email": "saopaulo@serverlessdays.io",
+    "website": "https://saopaulo.serverlessdays.io",
+    "image": "https://images.sympla.com.br/64793334b4e72-lg.png"
   }
 ]
