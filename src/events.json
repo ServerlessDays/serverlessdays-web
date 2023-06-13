@@ -367,6 +367,14 @@
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2023/master/assets/images/zurich_panorama.jpg"
   },
   {
+    "label": "Ahmedabad",
+    "loc": { "lat": 23.022505, "lng": 72.571365 },
+    "date": "09 September 2023",
+    "website": "https://ahmedabad.serverlessdays.io/",
+    "email": "ahmedabad@serverlessdays.io",
+    "image": "https://ahmedabad.serverlessdays.io/images/serverless-ahmedabad.png"
+  },
+  {
     "label": "Cardiff",
     "loc": { "lat": 51.4824, "lng": -3.1746 },
     "date": "21 September 2023",
@@ -381,13 +389,5 @@
     "email": "saopaulo@serverlessdays.io",
     "website": "https://saopaulo.serverlessdays.io",
     "image": "https://images.sympla.com.br/64793334b4e72-lg.png"
-  },
-  {
-    "label": "Ahmedabad",
-    "loc": { "lat": 23.022505, "lng": 72.571365 },
-    "date": "09 September 2023",
-    "website": "https://ahmedabad.serverlessdays.io/",
-    "email": "ahmedabad@serverlessdays.io",
-    "image": "https://ahmedabad.serverlessdays.io/images/serverless-ahmedabad.png"
-    }
+  }
 ]
