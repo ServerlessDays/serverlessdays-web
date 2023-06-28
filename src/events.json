@@ -383,6 +383,13 @@
     "image": "https://res.cloudinary.com/dod4lcj3h/image/upload/v1676888679/SLSDaysCardiff2023_sitkln.jpg"
   },
   {
+    "label": "Cape Town",
+    "loc": { "lat": 33.9249, "lng": 18.4241 },
+    "date": "20 October 2023",
+    "website": "http://capetown.serverlessdays.io/",
+    "email": "capetown@serverlessdays.io",
+    "image": "https://s3.amazonaws.com/tech5.ml/cptimage.jpg"
+  {
     "label": "São Paulo",
     "date": "21 October 2023",
     "loc": { "lat": -23.5689, "lng": -46.6513 },
