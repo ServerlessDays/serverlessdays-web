@@ -384,7 +384,7 @@
   },
   {
     "label": "Cape Town",
-    "loc": { "lat": 33.9249, "lng": 18.4241 },
+    "loc": { "lat": -33.9249, "lng": 18.4241 },
     "date": "20 October 2023",
     "website": "https://capetown.serverlessdays.io",
     "email": "capetown@serverlessdays.io",
