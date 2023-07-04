@@ -367,6 +367,14 @@
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2023/master/assets/images/zurich_panorama.jpg"
   },
   {
+    "label": "Bengaluru",
+    "loc": { "lat": 12.972442, "lng": 77.580643 },
+    "date": "19 August 2023",
+    "website": "https://blr.serverlessdays.io/",
+    "email": "blr@serverlessdays.io",
+    "image": "https://blr.serverlessdays.io/serverless-bengaluru.gif"
+  },
+  {
     "label": "Ahmedabad",
     "loc": { "lat": 23.022505, "lng": 72.571365 },
     "date": "09 September 2023",
