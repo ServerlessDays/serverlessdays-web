@@ -358,7 +358,7 @@
     "email": "paris@serverlessdays.io",
     "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
   },
- {
+  {
     "label": "Zürich",
     "loc": { "lat": 47.3766, "lng": 8.5332 },
     "email": "zurich@serverlessdays.io",
