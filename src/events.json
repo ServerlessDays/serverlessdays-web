@@ -358,13 +358,21 @@
     "email": "paris@serverlessdays.io",
     "image": "https://i.ibb.co/Yk0xMSV/cbimage.jpg"
   },
-  {
+ {
     "label": "Zürich",
     "loc": { "lat": 47.3766, "lng": 8.5332 },
     "email": "zurich@serverlessdays.io",
     "date": "22 June 2023",
     "website": "https://zurich.serverlessdays.io",
     "image": "https://raw.githubusercontent.com/madama/ServerlessDays-Zurich-2023/master/assets/images/zurich_panorama.jpg"
+  },
+  {
+    "label": "Bengaluru",
+    "loc": { "lat": 12.972442, "lng": 77.580643 },
+    "date": "19 August 2023",
+    "website": "https://blr.serverlessdays.io/",
+    "email": "blr@serverlessdays.io",
+    "image": "https://blr.serverlessdays.io/assets/serverless-bengaluru.gif"
   },
   {
     "label": "Ahmedabad",
