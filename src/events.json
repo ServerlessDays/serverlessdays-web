@@ -405,5 +405,13 @@
     "email": "saopaulo@serverlessdays.io",
     "website": "https://saopaulo.serverlessdays.io",
     "image": "https://images.sympla.com.br/64793334b4e72-lg.png"
+  },
+  {
+    "label": "Milano",
+    "date": "13 June 2024",
+    "loc": { "lat": 45.4642, "lng": 9.19 },
+    "email": "milan@serverlessdays.io",
+    "website": "https://milan.serverlessdays.io",
+    "image": "https://imagedelivery.net/55PXnfNaLA7qnpEnq-80ug/d1c9d737-cc8d-4989-4ee2-3a34d12ce600/original"
   }
 ]
