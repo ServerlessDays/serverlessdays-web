@@ -399,6 +399,22 @@
     "image": "https://images.sympla.com.br/64793334b4e72-lg.png"
   },
   {
+    "label": "Sydney",
+    "loc": { "lat": -33.8717, "lng": 151.2084 },
+    "date": "21 May 2024",
+    "website": "https://anz.serverlessdays.io",
+    "email": "anz@serverlessdays.io",
+    "image": "https://anz.serverlessdays.io/img/sq-sydney2024.jpg"
+  },
+  {
+    "label": "Auckland",
+    "loc": { "lat": -36.8481, "lng": 174.7705 },
+    "date": "24 May 2024",
+    "website": "https://anz.serverlessdays.io",
+    "email": "anz@serverlessdays.io",
+    "image": "https://anz.serverlessdays.io/img/sq-auckland2024.jpg"
+  },
+  {
     "label": "Milano",
     "date": "13 June 2024",
     "loc": { "lat": 45.4642, "lng": 9.19 },
