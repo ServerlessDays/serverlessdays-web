@@ -327,14 +327,6 @@
     "image": "http://student.serverlessdays.io/camp.png"
   },
   {
-    "label": "Belfast",
-    "loc": { "lat": 54.6078, "lng": -5.9264 },
-    "date": "28 February 2023",
-    "website": "https://serverlessdaysbelfast.com/",
-    "email": "belfast@serverlessdays.io",
-    "image": "https://dz0p6k26nsc2t.cloudfront.net/img/harland_and_wolff.jpg"
-  },
-  {
     "label": "ANZ",
     "loc": { "lat": -37.8179789, "lng": 144.9649377 },
     "date": "10 March 2023",
@@ -405,6 +397,14 @@
     "website": "https://anz.serverlessdays.io",
     "email": "anz@serverlessdays.io",
     "image": "https://anz.serverlessdays.io/img/sq-sydney2024.jpg"
+  },
+  {
+    "label": "Belfast",
+    "loc": { "lat": 54.6078, "lng": -5.9264 },
+    "date": "23 May 2024",
+    "website": "https://serverlessdaysbelfast.com/",
+    "email": "belfast@serverlessdays.io",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F706190629%2F260514985399%2F1%2Foriginal.20240227-103015?w=720&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C50%2C1600%2C800&s=c1f4bd99840acfe696d5d586a22d437f"
   },
   {
     "label": "Auckland",
