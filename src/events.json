@@ -421,5 +421,13 @@
     "email": "milan@serverlessdays.io",
     "website": "https://milan.serverlessdays.io",
     "image": "https://imagedelivery.net/55PXnfNaLA7qnpEnq-80ug/d1c9d737-cc8d-4989-4ee2-3a34d12ce600/original"
+  },
+  {
+    "label": "Bengaluru",
+    "loc": { "lat": 12.95066349279342, "lng": 77.69951145260922 },
+    "date": "31 August 2024",
+    "website": "https://blr.serverlessdays.io/",
+    "email": "blr@serverlessdays.io",
+    "image": "https://blr.serverlessdays.io/serverless-bengaluru.gif"
   }
 ]
