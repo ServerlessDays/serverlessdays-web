@@ -429,5 +429,13 @@
     "website": "https://blr.serverlessdays.io/",
     "email": "blr@serverlessdays.io",
     "image": "https://blr.serverlessdays.io/serverless-bengaluru.gif"
+  },
+  {
+    "label": "Manchester",
+    "loc": { "lat": 53.470945508828045, "lng": -2.2959585153339175 },
+    "date": "20 February 2025",
+    "website": "https://serverlessdaysmanchester.com",
+    "email": "info@serverlessdaysmanchester.com",
+    "image": "https://www.serverlessdaysmanchester.com/serverlessdaysio.jpg"
   }
 ]
