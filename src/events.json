@@ -432,5 +432,13 @@
     "website": "https://conf.ugperu.cloud/",
     "email": "lima@serverlessdays.io",
     "image": "https://conf.ugperu.cloud/static/media/slsdayslima%20foto%20previa.0d9c5c5843a2fc5d9ced.png"
+  },
+  {
+    "label": "Manchester",
+    "loc": { "lat": 53.470945508828045, "lng": -2.2959585153339175 },
+    "date": "20 February 2025",
+    "website": "https://serverlessdaysmanchester.com",
+    "email": "info@serverlessdaysmanchester.com",
+    "image": "https://www.serverlessdaysmanchester.com/serverlessdaysio.jpg"
   }
 ]
