@@ -167,11 +167,6 @@
     "email": "santiago@serverlessdays.io"
   },
   {
-    "label": "Lima",
-    "loc": { "lat": -12.0489, "lng": -77.043 },
-    "email": "lima@serverlessdays.io"
-  },
-  {
     "label": "Lviv",
     "loc": { "lat": 49.8353, "lng": 24.0264 },
     "email": "lviv@serverlessdays.io"
