@@ -167,11 +167,6 @@
     "email": "santiago@serverlessdays.io"
   },
   {
-    "label": "Lima",
-    "loc": { "lat": -12.0489, "lng": -77.043 },
-    "email": "lima@serverlessdays.io"
-  },
-  {
     "label": "Lviv",
     "loc": { "lat": 49.8353, "lng": 24.0264 },
     "email": "lviv@serverlessdays.io"
@@ -429,6 +424,14 @@
     "website": "https://blr.serverlessdays.io/",
     "email": "blr@serverlessdays.io",
     "image": "https://blr.serverlessdays.io/serverless-bengaluru.gif"
+  },
+  {
+    "label": "Lima",
+    "loc": { "lat": -12.0453, "lng": -77.0311 },
+    "date": "20 September 2024",
+    "website": "https://conf.ugperu.cloud/",
+    "email": "lima@serverlessdays.io",
+    "image": "https://conf.ugperu.cloud/static/media/slsdayslima%20foto%20previa.0d9c5c5843a2fc5d9ced.png"
   },
   {
     "label": "Manchester",
