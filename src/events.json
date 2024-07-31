@@ -378,14 +378,6 @@
     "image": "https://s3.amazonaws.com/letscloud.ga/1692193530111.jpg"
   },
   {
-    "label": "São Paulo",
-    "date": "21 October 2023",
-    "loc": { "lat": -23.5689, "lng": -46.6513 },
-    "email": "saopaulo@serverlessdays.io",
-    "website": "https://saopaulo.serverlessdays.io",
-    "image": "https://images.sympla.com.br/64793334b4e72-lg.png"
-  },
-  {
     "label": "Sydney",
     "loc": { "lat": -33.8717, "lng": 151.2084 },
     "date": "21 May 2024",
