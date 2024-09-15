@@ -434,6 +434,14 @@
     "image": "https://sdsp.io/serverlessdays_saopaulo.png"
   },
   {
+    "label": "Rome",
+    "loc": { "lat": 41.9028, "lng": 12.4964 },
+    "email": "rome@serverlessdays.io",
+    "website": "https://rome.serverlessdays.io",
+    "date": "13 December 2024",
+    "image": "https://rome.serverlessdays.io/img/cover_web.png"
+  },
+  {
     "label": "Manchester",
     "loc": { "lat": 53.470945508828045, "lng": -2.2959585153339175 },
     "date": "20 February 2025",
